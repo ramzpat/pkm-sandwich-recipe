@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+.result-container {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: 2px auto;
+  width: 250px;
+  background-color: #b0b00b;
+}
+
+.recipe-box{
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.filter-container{
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+
+  display: flex;
+  width: 95%;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.type-box {
+  margin: 5px auto;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.type-unselect {
+  background-color: #282c34; 
+}
+
+.type-select{
+  background-color: #61dafb;
+}
+
+.level-box {
+  margin: 5px auto;
+  width: 50px;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+
+.level {
+  background-color: #282c34;
+}
+
+.level-select {
+  background-color: #61dafb;
+}
+
+.power-box {
+  margin: 5px auto;
+  width: 150px;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.power-unselect {
+  background-color: #282c34;
+}
+
+.power-select {
+  background-color: #61dafb;
+}
