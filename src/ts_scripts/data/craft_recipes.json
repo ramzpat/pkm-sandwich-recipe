@@ -1,0 +1,253 @@
+[
+  // Normal type
+  {
+    "description": "N/A",
+    "fillings": [
+      "Tofu"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Sour Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Normal",
+        "level": "3"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "N/A"
+  },
+  {
+    "description": "N/A",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Tofu",
+      "Tofu",
+      "Tofu"
+    ],
+    "condiments": [
+      "* Herba Mystica",
+      "* Herba Mystica"],
+    "herbal_exclude_conditions": [
+      ["Sweet", "Sour"],
+      ["Sweet", "Sweet"],
+      ["Sour", "Sour"]
+    ],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Normal",
+        "level": "3"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "N/A"
+  },
+  {
+    "name":"Chocolate Churro",
+    "description": "Purchased at Smoochurro",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Normal",
+        "level": "1"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "Smoochurro"
+  },
+  {
+    "name":"Ramen",
+    "description": "Purchased at Jade Palace Garden",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Normal",
+        "level": "1"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "Jade Palace Garden"
+  }, {
+    "name":"Lemon Gelato",
+    "description": "Purchased at Barato's",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Item Drop Power",
+        "type": "Ghost",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Rock",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Normal",
+        "level": "1"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "Barato's"
+  }, {
+    "name":"Fizzy-Pop Ice Cream",
+    "description": "Purchased at Sugar-N-Ice",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Exp. Point Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Catching Power",
+        "type": "Water",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Fire",
+        "level": "1"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "Sugar-N-Ice"
+  }, {
+    "name":"Sweet Adzuki Bean Soup",
+    "description": "Purchased at Treasure Eatery",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Exp. Point Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Poison",
+        "level": "1"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "Treasure Eatery"
+  }, {
+    "name":"Caesar Salad",
+    "description": "Purchased at Barato's",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Exp. Point Power",
+        "type": "Flying",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Fire",
+        "level": "1"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "Barato's"
+  }, {
+    "name":"Mango Ice Cream",
+    "description": "Purchased at Sugar-N-Ice",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Teensy Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Dragon",
+        "level": "1"
+      },
+      {
+        "name": "Catching Power",
+        "type": "Electric",
+        "level": "1"
+      }
+    ],
+    // "imageUrl": "https://www.serebii.net/scarletviolet/sandwich/xxx.jpg",
+    "location": "Sugar-N-Ice"
+  }
+  // Fighting 
+]
