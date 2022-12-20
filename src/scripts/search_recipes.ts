@@ -1,0 +1,85 @@
+import { recipe_filter, sandwich_recipe } from "./data_model";
+
+import standard_sandwiches from '../assets/data/sandwiches.json'
+import shop_sandwiches from '../assets/data/sandwiches_shop.json'
+
+let _standard_sandwiches:sandwich_recipe[] = []
+let _shop_sandwiches:sandwich_recipe[] = []
+let _creative_sandwiches:sandwich_recipe[] = []
+
+export function prepare_sandwiches_onLoad() {
+  // Prepare standard sandwiches 
+  standard_sandwiches.map(
+    (e) => {
+      _standard_sandwiches.push(
+        {
+          name: e.name,
+          description:e.description,
+          fillings:e.fillings,
+          condiments:e.condiments,
+          imgSrc:e.imageUrl,
+          location:e.location,
+          effects: e.effects
+        }
+      )
+    }
+  )
+  shop_sandwiches.map(
+    (e) => {
+      // console.log(e)
+      // _shop_sandwiches.push(
+      //   {
+      //     name: "Creative",
+      //     description:"Shop",
+      //     fillings:e.fillings,
+      //     condiments:e.condiments,
+      //     // imgSrc:e.imageUrl,
+      //     location:e.location,
+      //     effects: e.effects
+      //   }
+      // )
+    }
+  )
+  console.log("Sandwiches are loaded")
+}
+
+const sandwich_match_condition = (recipe:sandwich_recipe, _filter:recipe_filter):boolean => {
+  let is_match:boolean = false;
+  recipe.effects.map(
+    (effect) => {
+      if (effect.name === _filter.power 
+        && effect.level === _filter.level.toString()) {
+        if (effect.name === "Egg Power")
+          is_match = true;
+        else
+          is_match = (effect.type === _filter.type)
+      }
+    }
+  )
+  return is_match;
+}
+
+export function search_recipes(
+  _filters:recipe_filter[], 
+  creativeMode?:boolean, 
+  shopMode?:boolean, 
+  recipeMode?:boolean): sandwich_recipe[] {
+  
+  // TODO: Derive all recipes from JSON files 
+  let all_sandwiches:sandwich_recipe[] = [];
+
+  // Load: Standard sandwiches 
+  if (!recipeMode || recipeMode){   
+    all_sandwiches = _standard_sandwiches.slice(0);
+  }
+
+  _filters.map(
+    (filter) => {
+      all_sandwiches = all_sandwiches.filter(
+        (sandwich) => sandwich_match_condition(sandwich, filter)
+      ).slice(0)
+    }
+  )
+
+  return all_sandwiches
+}

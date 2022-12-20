@@ -5,10 +5,6 @@ export interface recipe_filter{
 }
 
 export interface sandwich_recipe {
-  isShop:boolean;         // Must buy from a shop
-  isRecipe:boolean;       // There is a recipe in the game
-  isCreative:boolean;     // Must create from creative mode 
-
   name?:string;
   description:string;
   fillings:string[];
@@ -16,5 +12,10 @@ export interface sandwich_recipe {
   
   imgSrc?:string; 
   location?:string;
-  
+
+  effects:{
+    name:string;
+    type:string;
+    level:string;
+  }[];
 }
