@@ -5,7 +5,8 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
   return (
     <div className="recipe-box">
       <span className="info">{recipe.name}</span>
-      <div className="ingredient">
+      <div className={`buyable_location ${(recipe.location)?"":"hide"}`}>Shop Location: {recipe.location}</div>
+      <div className={`ingredient ${(recipe.location)?"hide":""}`}>
         <div className="fillings">
           {
             recipe.fillings.map(
