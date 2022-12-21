@@ -7,7 +7,7 @@ const LevelFilter:React.FC<{
   setFilter:React.Dispatch<React.SetStateAction<number>>}> = ({filter, setFilter}) => {
   return (
     <div className="filter-container">
-      <div className="filter-title">Level: </div>
+      <div className="filter-title">Level at least: </div>
       <div className="choice-container">
       {
         LevelList.map(

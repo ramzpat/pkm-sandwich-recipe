@@ -9,6 +9,15 @@ import PowerList from "../assets/data/powers.json"
 import TypeList from "../assets/data/types.json"
 import { LevelList } from "./LevelFilter"
 
+import './alertMsg.css'
+// import { 
+//   Alert,
+//   AlertIcon,
+//   AlertTitle,
+//   AlertDescription } from "@chakra-ui/alert";
+
+
+
 const FilterContainer:React.FC<{ 
     filters:{id:number, filter:recipe_filter}[],
     setFilters:React.Dispatch<React.SetStateAction<{id:number, filter:recipe_filter}[]>>
@@ -19,10 +28,14 @@ const FilterContainer:React.FC<{
   const [type, setType] = useState<string>(TypeList[0]);
   const [level, setLevel] = useState<number>(LevelList[0]);
 
+  const [isAlert, setAlert] = useState<boolean>(false);
+  const [alearMsg, setAlertMsg] = useState<string>("error_msg");
+
   const addFilter = (_filter:recipe_filter) => {
     // Check the number of filters 
     if (filters.length >= 3) {
-      console.log("Maximum is 3.")
+      setAlertMsg("Maximum is 3.")
+      setAlert(true);
       return;
     }
     // Check if the power already added
@@ -30,7 +43,8 @@ const FilterContainer:React.FC<{
     filters.map(
       (e) => {
         if (e.filter.power === _filter.power) {
-          console.log("Cannot add the same power.")
+          setAlertMsg("Cannot add the same power.")
+          setAlert(true);
           canAdd = false
           return;
         }
@@ -41,6 +55,9 @@ const FilterContainer:React.FC<{
         _filter.type = undefined;
       // Add the filter
       setFilters([...filters, {id:Date.now(), filter:_filter}])
+
+      setAlertMsg("");
+      setAlert(false);
     }
   }
   const removeFilter = (id:number) => {
@@ -49,29 +66,41 @@ const FilterContainer:React.FC<{
         (filter) => id !== filter.id
       )
     )
+    setAlertMsg("");
+    setAlert(false);
   }
 
   return (
     <div id="filter-container-id">
-      <TypeFilter
-        filter={type}
-        setFilter={setType}
-        />
       <PowerFilter
         filter={power}
         setFilter={setPower}
+        />
+      <TypeFilter
+        filter={type}
+        setFilter={setType}
         />
       <LevelFilter
         filter={level}
         setFilter={setLevel}
         />
 
-      <div className="filter-container">
-        <input 
-          type="button" 
-          value="Add filter" 
+      
+      <div className="filter-list">
+
+        <div 
+          className={`alert error ${(isAlert)?"":"hide"}`}
+          onClick={() => {setAlert(false); setAlertMsg("")}}
+          >
+          {alearMsg}
+        </div>
+
+        <div 
+          className="button" 
           onClick={() => addFilter({power:power, type:type, level:level})} 
-        />
+        >
+          Add Filter
+        </div>
         {
           filters.map(
             (e, index) => 
@@ -80,6 +109,7 @@ const FilterContainer:React.FC<{
               className="filter-box"
               onClick={() => removeFilter(e.id) }
               >
+              
               {e.filter.power}:{e.filter.type}:{e.filter.level} 
             </div>
           )

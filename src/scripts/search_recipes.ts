@@ -13,7 +13,7 @@ export function prepare_sandwiches_onLoad() {
     (e) => {
       _standard_sandwiches.push(
         {
-          name: e.name,
+          name: "#" + e.number + ": " + e.name,
           description:e.description,
           fillings:e.fillings,
           condiments:e.condiments,
@@ -48,7 +48,7 @@ const sandwich_match_condition = (recipe:sandwich_recipe, _filter:recipe_filter)
   recipe.effects.map(
     (effect) => {
       if (effect.name === _filter.power 
-        && effect.level === _filter.level.toString()) {
+        && (+effect.level) >= _filter.level) {
         if (effect.name === "Egg Power")
           is_match = true;
         else
