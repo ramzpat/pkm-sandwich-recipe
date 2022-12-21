@@ -1,0 +1,597 @@
+[
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Tofu",
+      "Tofu"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Normal",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Red Pepper",
+      "Red Pepper"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fire",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fire",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fire",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Cucumber",
+      "Cucumber"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Water",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Water",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Water",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Yellow Pepper",
+      "Yellow Pepper"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Electric",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Electric",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Electric",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Lettuce",
+      "Lettuce"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Grass",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Grass",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Grass",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Klawf Stick",
+      "Klawf Stick"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ice",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ice",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ice",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Pickle",
+      "Pickle"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fighting",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fighting",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fighting",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Green Pepper",
+      "Green Pepper"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Poison",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Poison",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Poison",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Ham",
+      "Ham"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ground",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ground",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ground",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Prosciutto",
+      "Prosciutto"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Flying",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Flying",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Flying",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Onion",
+      "Onion"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Psychic",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Psychic",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Cherry Tomato",
+      "Cherry Tomato"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Bug",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Bug",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Bug",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Bacon",
+      "Bacon"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Rock",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Rock",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Rock",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Red Onion",
+      "Red Onion"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ghost",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Avocado",
+      "Avocado"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Dragon",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Dragon",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dragon",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Smoked Fillet",
+      "Smoked Fillet"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Dark",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Dark",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dark",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Hamburger",
+      "Hamburger"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Steel",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Steel",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Steel",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Tomato",
+      "Onion",
+      "Green Pepper",
+      "Hamburger",
+      "Tomato",
+      "Tomato"
+    ],
+    "condiments": [
+      "Any Herba Mystica",
+      "Any Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fairy",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fairy",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fairy",
+        "level": "3"
+      }
+    ]
+  },
+
+
+  {
+    "fillings": [
+      "Tofu"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Sour Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Normal",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Tofu",
+      "Tofu",
+      "Tofu"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour, Sweet + Sweet, Sour + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Normal",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Normal",
+        "level": "3"
+      }
+    ]
+  }
+]
