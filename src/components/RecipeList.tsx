@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { recipe_filter, sandwich_recipe } from "../scripts/data_model"
 import { prepare_sandwiches_onLoad, search_recipes } from "../scripts/search_recipes"
+import RecipeBox from "./RecipeBox"
 
 const RecipeList:React.FC<{filters:{id:number, filter:recipe_filter}[]}> = ({filters}) => {
   useEffect(() => {
@@ -26,16 +27,21 @@ const RecipeList:React.FC<{filters:{id:number, filter:recipe_filter}[]}> = ({fil
         Please choose at least 1 power
       </div>
     )
+  } else if (recipes.length === 0){
+    return (
+      <div className="recipe-list-container">
+        Cannot find any recipe
+      </div>
+    )
   } else {
     return (
       <div className="recipe-list-container">
       {
         recipes.map(
-          (recipe, index) => (
-            <li 
-            key={index}
-            className="recipe-box">
-            {recipe.name}</li>
+          (recipe, index) => (      
+            <RecipeBox 
+              key={index}    
+              recipe={recipe} />
           )
         )
       }
