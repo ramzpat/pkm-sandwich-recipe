@@ -9,7 +9,7 @@ import PowerList from "../assets/data/powers.json"
 import { TypeList } from "./TypeFilter"
 import { LevelList } from "./LevelFilter"
 
-import './notice_style.css'
+import '../notice_style.css'
 // import { 
 //   Alert,
 //   AlertIcon,
