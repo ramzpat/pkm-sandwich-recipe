@@ -1,7 +1,7 @@
 /* The alert message box */
 .alert {
   position: relative;
-  padding: 1rem 1rem;
+  /* padding: 1rem 1rem; */
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
@@ -40,10 +40,11 @@
   background-color: #cff4fc;
   border-color: #b6effb;
 }
+
 /* The close button */
 .closebtn {
   margin-left: 15px;
-  color: white;
+  color: lightcoral;
   font-weight: bold;
   float: right;
   font-size: 22px;

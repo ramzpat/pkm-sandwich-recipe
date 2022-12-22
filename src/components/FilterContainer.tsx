@@ -6,10 +6,10 @@ import PowerFilter from "./PowerFilter"
 import LevelFilter from "./LevelFilter"
 
 import PowerList from "../assets/data/powers.json"
-import TypeList from "../assets/data/types.json"
+import { TypeList } from "./TypeFilter"
 import { LevelList } from "./LevelFilter"
 
-import './alertMsg.css'
+import './notice_style.css'
 // import { 
 //   Alert,
 //   AlertIcon,
@@ -93,24 +93,32 @@ const FilterContainer:React.FC<{
           onClick={() => {setAlert(false); setAlertMsg("")}}
           >
           {alearMsg}
+
+          <div 
+            className="closebtn"
+          >[x]</div>
         </div>
 
         <div 
           className="button" 
-          onClick={() => addFilter({power:power, type:type, level:level})} 
-        >
+          onClick={() => addFilter({power:power, type:type, level:level})} >
           Add Filter
         </div>
+
         {
           filters.map(
             (e, index) => 
             <div
               key={index} 
               className="filter-box"
-              onClick={() => removeFilter(e.id) }
+              onClick={() => removeFilter(e.id)}
               >
-              
-              {e.filter.power}:{e.filter.type}:{e.filter.level} 
+              <span>
+              {e.filter.power}{`${(e.filter.type)?("("+e.filter.type+")"):""}`} Level : {e.filter.level} 
+              </span>
+              <div 
+                className="closebtn"
+              >[x]</div>
             </div>
           )
         }
