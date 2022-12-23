@@ -1,25 +1,5 @@
 import React from "react"
 
-// Load images 
-import type_img_normal from '../assets/images/type-normal.jpeg'
-import type_img_fighting from '../assets/images/type-fighting.jpeg'
-import type_img_flying from '../assets/images/type-flying.jpeg'
-import type_img_poison from '../assets/images/type-poison.jpeg'
-import type_img_ground from '../assets/images/type-ground.jpeg'
-import type_img_rock from '../assets/images/type-rock.jpeg'
-import type_img_bug from '../assets/images/type-bug.jpeg'
-import type_img_ghost from '../assets/images/type-ghost.jpeg'
-import type_img_steel from '../assets/images/type-steel.jpeg'
-import type_img_fire from '../assets/images/type-fire.jpeg'
-import type_img_water from '../assets/images/type-water.jpeg'
-import type_img_grass from '../assets/images/type-grass.jpeg'
-import type_img_electric from '../assets/images/type-electric.jpeg'
-import type_img_psychic from '../assets/images/type-psychic.jpeg'
-import type_img_ice from '../assets/images/type-ice.jpeg'
-import type_img_dragon from '../assets/images/type-dragon.jpeg'
-import type_img_dark from '../assets/images/type-dark.jpeg'
-import type_img_fairy from '../assets/images/type-fairy.jpeg'
-
 export const TypeList:string[] = [
   "Normal",
   "Fighting",
@@ -44,75 +24,75 @@ export const TypeList:string[] = [
 export const pokemon_types:{type_name:string, type_img_icon:string}[] = [
   {
     type_name: "Normal",
-    type_img_icon: type_img_normal
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-normal.jpeg"
   },
   {
     type_name: "Fighting",
-    type_img_icon: type_img_fighting
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-fighting.jpeg"
   },
   {
     type_name: "Flying",
-    type_img_icon: type_img_flying
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-flying.jpeg"
   },
   {
     type_name: "Poison",
-    type_img_icon: type_img_poison
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-poison.jpeg"
   },
   {
     type_name: "Ground",
-    type_img_icon: type_img_ground
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-ground.jpeg"
   },
   {
     type_name: "Rock",
-    type_img_icon: type_img_rock
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-rock.jpeg"
   },
   {
     type_name: "Bug",
-    type_img_icon: type_img_bug
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-bug.jpeg"
   },
   {
     type_name: "Ghost",
-    type_img_icon: type_img_ghost
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-ghost.jpeg"
   },
   {
     type_name: "Steel",
-    type_img_icon: type_img_steel
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-steel.jpeg"
   },
   {
     type_name: "Fire",
-    type_img_icon: type_img_fire
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-fire.jpeg"
   },
   {
     type_name: "Water",
-    type_img_icon: type_img_water
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-water.jpeg"
   },
   {
     type_name: "Grass",
-    type_img_icon: type_img_grass
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-grass.jpeg"
   },
   {
     type_name: "Electric",
-    type_img_icon: type_img_electric
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-electric.jpeg"
   },
   {
     type_name: "Psychic",
-    type_img_icon: type_img_psychic
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-psychic.jpeg"
   },
   {
     type_name: "Ice",
-    type_img_icon: type_img_ice
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-ice.jpeg"
   },
   {
     type_name: "Dragon",
-    type_img_icon: type_img_dragon
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-dragon.jpeg"
   },
   {
     type_name: "Dark",
-    type_img_icon: type_img_dark
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-dark.jpeg"
   },
   {
     type_name: "Fairy",
-    type_img_icon: type_img_fairy
+    type_img_icon: "https://raw.githubusercontent.com/ramzpat/pkm-assets/main/type_images/type-fairy.jpeg"
   },
 ]
 
