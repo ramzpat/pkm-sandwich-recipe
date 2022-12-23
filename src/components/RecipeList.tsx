@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
-import { recipe_filter, sandwich_recipe } from "../scripts/data_model"
+import { effect_filter, recipe_filter, sandwich_recipe } from "../scripts/data_model"
 import { prepare_sandwiches_onLoad, search_recipes } from "../scripts/search_recipes"
 import RecipeBox from "./RecipeBox"
 
-const RecipeList:React.FC<{filters:{id:number, filter:recipe_filter}[]}> = ({filters}) => {
+const RecipeList:React.FC<{filter:recipe_filter}> = ({filter}) => {
   useEffect(() => {
     // Prepare sandwiches onLoad
     prepare_sandwiches_onLoad();
@@ -12,16 +12,10 @@ const RecipeList:React.FC<{filters:{id:number, filter:recipe_filter}[]}> = ({fil
   const [recipes, setRecipes] = useState<sandwich_recipe[]>([]);
 
   useEffect(()=> {
-    let _filters:recipe_filter[] = [];
-    filters.map(
-      (e) => {
-        _filters.push(e.filter)
-      }
-    )
-    setRecipes(search_recipes(_filters))
-  }, [filters])
+    setRecipes(search_recipes(filter))
+  }, [filter])
 
-  if (filters.length === 0) {
+  if (filter.effect_filters.length === 0) {
     return (
       <div className="recipe-list-container">
         Please choose at least 1 power

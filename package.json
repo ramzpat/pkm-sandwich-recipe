@@ -1,6 +1,7 @@
 {
   "name": "pkm-sandwitch-recipe",
   "version": "0.1.0",
+  "homepage": "https://ramzpat.github.io/pkm-sandwich-finder",
   "private": true,
   "dependencies": {
     "@chakra-ui/alert": "^2.0.13",

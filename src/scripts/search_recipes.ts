@@ -1,4 +1,4 @@
-import { recipe_filter, sandwich_recipe } from "./data_model";
+import { effect_filter, recipe_filter, sandwich_recipe } from "./data_model";
 
 import standard_sandwiches from '../assets/data/sandwiches.json'
 import shop_sandwiches from '../assets/data/sandwiches_shop.json'
@@ -55,7 +55,7 @@ export function prepare_sandwiches_onLoad() {
   console.log("Sandwiches are loaded")
 }
 
-const sandwich_match_condition = (recipe:sandwich_recipe, _filter:recipe_filter):boolean => {
+const sandwich_match_condition = (recipe:sandwich_recipe, _filter:effect_filter):boolean => {
   let is_match:boolean = false;
   recipe.effects.map(
     (effect) => {
@@ -72,28 +72,41 @@ const sandwich_match_condition = (recipe:sandwich_recipe, _filter:recipe_filter)
 }
 
 export function search_recipes(
-  _filters:recipe_filter[], 
+  _filter:recipe_filter, 
   creativeMode?:boolean, 
-  shopMode?:boolean, 
   recipeMode?:boolean): sandwich_recipe[] {
   
-  // TODO: Derive all recipes from JSON files 
   let all_sandwiches:sandwich_recipe[] = [];
-
-  // Load: Standard sandwiches 
+  // Load standard sandwiches 
   if (!recipeMode || recipeMode){   
     all_sandwiches = _standard_sandwiches.slice(0);
   }
-
-  if (!shopMode || shopMode) {
+  // Load buyable sandwich
+  if (_filter.showBuyable) {
     all_sandwiches = all_sandwiches.concat(_shop_sandwiches.slice(0)).slice(0)
   }
-
+  // Load creative sandwich
   if (!creativeMode || creativeMode) {
     all_sandwiches = all_sandwiches.concat(_creative_sandwiches.slice(0)).slice(0)
   }
-
-  _filters.map(
+  if (!_filter.showHerbal) {
+    // Remove sandwich that uses herbal mystica
+    all_sandwiches = all_sandwiches.filter(
+      (sandwich) => {
+        let useHerbal = false;
+        sandwich.condiments.map(
+          (condi) => {
+            if (condi.indexOf("Herba") >= 0)
+              useHerbal = true; 
+          }
+        )
+        return !useHerbal;
+      }
+    )
+  }
+  
+  // Filter sandwich based on the selected effects 
+  _filter.effect_filters.map(
     (filter) => {
       all_sandwiches = all_sandwiches.filter(
         (sandwich) => sandwich_match_condition(sandwich, filter)
@@ -101,5 +114,6 @@ export function search_recipes(
     }
   )
 
+  // Return the sorted result according to the number of fillings because it is better if we can use toppings as less as possible.
   return all_sandwiches.sort((a, b) => (a.fillings.length - b.fillings.length) )
 }

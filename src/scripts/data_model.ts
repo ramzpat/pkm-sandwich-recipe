@@ -1,7 +1,13 @@
-export interface recipe_filter{
+export interface effect_filter{
   power:string;
   type?:string;
   level:number;
+}
+
+export interface recipe_filter{
+  effect_filters:effect_filter[];
+  showBuyable:boolean;  // Buyable recipes 
+  showHerbal:boolean;   // Recipes that use Mystic Herbal
 }
 
 export interface sandwich_recipe {

@@ -594,4 +594,239 @@
       }
     ]
   }
+  ,{
+    "fillings": [
+      "Pickle"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fighting",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fighting",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fighting",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Pickle",
+      "Pickle",
+      "Pickle"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour or Sweet + Sweet"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fighting",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fighting",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fighting",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "fillings": [
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice"
+    ],
+    "condiments": [
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Normal",
+        "level": "2"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Flying",
+        "level": "2"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fighting",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "fillings": [
+      "Rice",
+      "Rice",
+      "Rice",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage"
+    ],
+    "condiments": [
+      "Whipped Cream","Horseradish","Horseradish","Chili Sauce" ],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Fighting",
+        "level": "2"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ground",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Water",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Fire Encounter lvl 2",
+    "ref":"https://www.reddit.com/r/PokemonScarletViolet/comments/zhff1k/level_2_encounter_sandwich_recipes_without_herba/",
+    "fillings": [
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice"
+    ],
+    "condiments": [
+      "Wasabi","Wasabi","Curry Power","Curry Power" ],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Fire",
+        "level": "2"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Grass",
+        "level": "2"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Water",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Water Encounter lvl 2",
+    "ref":"https://www.reddit.com/r/PokemonScarletViolet/comments/zhff1k/level_2_encounter_sandwich_recipes_without_herba/",
+    "fillings": [
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice"
+    ],
+    "condiments": [
+      "Cream Chese","Ketchup","Salt","Wasabi" ],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Water",
+        "level": "2"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Normal",
+        "level": "2"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Flying",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Electric Encounter lvl 2",
+    "ref":"https://www.reddit.com/r/PokemonScarletViolet/comments/zhff1k/level_2_encounter_sandwich_recipes_without_herba/",
+    "fillings": [
+      "Chorizo",
+      "Chorizo",
+      "Noodles",
+      "Noodles",
+      "Noodles",
+      "Noodles"
+    ],
+    "condiments": [
+      "Wasabi" ],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Electric",
+        "level": "2"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Psychic",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Poison",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Psychic Encounter lvl 2",
+    "ref":"https://www.reddit.com/r/PokemonScarletViolet/comments/zhff1k/level_2_encounter_sandwich_recipes_without_herba/",
+    "fillings": [
+      "Noodles",
+      "Noodles",
+      "Noodles",
+      "Noodles",
+      "Noodles",
+      "Noodles"
+    ],
+    "condiments": [
+      "Vinegar" ],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "2"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Ground",
+        "level": "2"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Poison",
+        "level": "1"
+      }
+    ]
+  }
 ]

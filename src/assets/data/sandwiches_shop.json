@@ -127,7 +127,6 @@
     "location": "Treasure Eatery"
   }, {
     "name":"Caesar Salad",
-    "description": "Purchased at Barato's",
     "fillings": [
     ],
     "condiments": [],
@@ -152,7 +151,6 @@
     "location": "Barato's"
   }, {
     "name":"Mango Ice Cream",
-    "description": "Purchased at Sugar-N-Ice",
     "fillings": [
     ],
     "condiments": [],
@@ -175,5 +173,125 @@
       }
     ],
     "location": "Sugar-N-Ice"
+  }, {
+    "name":"Alfajores",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Fighting",
+        "level": "1"
+      },
+      {
+        "name": "Catching Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Dark",
+        "level": "1"
+      }
+    ],
+    "location": "Seabreeze Cafe"
+  }, {
+    "name":"Teriyaki Ice Cream",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Item Drop Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Fighting",
+        "level": "1"
+      },
+      {
+        "name": "Egg Power",
+        "type": "",
+        "level": "1"
+      }
+    ],
+    "location": "Sugar-N-Ice"
+  }, {
+    "name":"Ceviche",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Fighting",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Ground",
+        "level": "1"
+      }
+    ],
+    "location": "Seafood Fresco"
+  }, {
+    "name":"Four-Piece Sushi (Moon Set)",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Exp. Point Power",
+        "type": "Fighting",
+        "level": "1"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Ground",
+        "level": "1"
+      },
+      {
+        "name": "Egg Power",
+        "type": "",
+        "level": "1"
+      }
+    ],
+    "location": "Sushi High Roller"
+  }, {
+    "name":"Hot and Sour Soup",
+    "fillings": [
+    ],
+    "condiments": [],
+    "herbal_exclude_conditions": [],
+    "effects": [
+      {
+        "name": "Egg Power",
+        "type": "",
+        "level": "2"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Fairy",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Fighting",
+        "level": "1"
+      }
+    ],
+    "location": "Kofu Lounge"
   }
 ]

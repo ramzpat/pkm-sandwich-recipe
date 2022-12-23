@@ -9,15 +9,19 @@ import RecipeList from './components/RecipeList';
 function App() {
   // Filters for recipes 
   
-  const [filters, setFilters] = useState<{id:number, filter:recipe_filter}[]>([]);
+  const [filter, setFilter] = useState<recipe_filter>({
+    effect_filters:[],
+    showBuyable:true,
+    showHerbal:true
+  });
   return (
     <div className="App">
       <header className="App-header">
         <FilterContainer
-          filters={filters}
-          setFilters={setFilters}
+          filter={filter}
+          setFilter={setFilter}
           />
-        <RecipeList filters={filters}/>
+        <RecipeList filter={filter}/>
       </header>
     </div>
   );
