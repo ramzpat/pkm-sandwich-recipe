@@ -101,7 +101,7 @@ const TypeFilter: React.FC<{
   setFilter:React.Dispatch<React.SetStateAction<string>>}> = ({filter, setFilter}) => {
   return (
     <div className="filter-container">
-      <span className="filter-title">Type: </span>
+      <div className="filter-title">Type: </div>
       <div className="type-container">
       {
         pokemon_types.map(

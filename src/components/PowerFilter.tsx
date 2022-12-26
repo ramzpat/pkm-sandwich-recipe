@@ -1,5 +1,18 @@
 import React from "react"
-import PowerList from "../assets/data/powers.json"
+
+export const PowerList = [
+  "Encounter Power",
+  "Egg Power",
+  "Catching Power",
+  "Sparkling Power",
+  "Title Power",
+  "Raid Power",
+  "Exp. Point Power",
+  "Item Drop Power",
+  "Humungo Power",
+  "Teensy Power"
+];
+
 
 const PowerFilter: React.FC<{
   filter:string, 
@@ -7,7 +20,7 @@ const PowerFilter: React.FC<{
   return (
     <div className="filter-container">
       <span className="filter-title">Power: </span>
-      <div className="choice-container">
+      <div className="power-container">
       {
         PowerList.map(
           (power:string, index:number) => (
@@ -15,7 +28,7 @@ const PowerFilter: React.FC<{
               key={index} 
               onClick={() => {setFilter(power)}}
               className={`power-box ${(filter === power)?"power-select":"power-unselect"}`}>
-                {power}
+                {power.split(' ')[0]}
             </div>
           )
         )

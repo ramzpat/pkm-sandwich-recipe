@@ -18,7 +18,7 @@ const RecipeList:React.FC<{filter:recipe_filter}> = ({filter}) => {
   if (filter.effect_filters.length === 0) {
     return (
       <div className="recipe-list-container">
-        Please choose at least 1 power
+        Please add at least 1 effect
       </div>
     )
   } else if (recipes.length === 0){
