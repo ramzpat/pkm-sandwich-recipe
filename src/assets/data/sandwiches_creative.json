@@ -1,5 +1,6 @@
 [
   {
+    "note":"Shiny Normal",
     "fillings": [
       "Tomato",
       "Onion",
@@ -826,6 +827,948 @@
         "name": "Item Drop Power",
         "type": "Poison",
         "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Flying Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401026#hl_1",
+    "fillings": [
+      "Prosciutto"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Flying",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Flying",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Flying",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Flying Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401026#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Prosciutto",
+      "Prosciutto",
+      "Prosciutto"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Flying",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Flying",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Flying",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Poison Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401027#hl_1",
+    "fillings": [
+      "Green Bell Pepper"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Spicy Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Poison",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Poison",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Poison",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Poison Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401027#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Green Bell Pepper",
+      "Green Bell Pepper",
+      "Green Bell Pepper"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Poison",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Poison",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Poison",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Ground Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401028#hl_1",
+    "fillings": [
+      "Ham"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ground",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ground",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ground",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Ground Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401028#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Ham",
+      "Ham",
+      "Ham"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ground",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ground",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ground",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Rock Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401030#hl_1",
+    "fillings": [
+      "Bacon"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Sour Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Rock",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Rock",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Rock",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Rock Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401030#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Bacon",
+      "Bacon",
+      "Bacon"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Rock",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Rock",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Rock",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Bug Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401032#hl_1",
+    "fillings": [
+      "Cherry Tomatoes"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Bug",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Bug",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Bug",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Bug Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401032#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Cherry Tomatoes",
+      "Cherry Tomatoes",
+      "Cherry Tomatoes"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour, Sweet + Sweet, or Sour + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Bug",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Bug",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Bug",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Ghost Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401032#hl_1",
+    "fillings": [
+      "Red Onion"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Bug",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Ghost Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401032#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Red Onion",
+      "Red Onion",
+      "Red Onion"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour or Sour + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Bug",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Ghost Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401032#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Red Onion",
+      "Red Onion",
+      "Red Onion"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour or Sour + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ghost",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Bug",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Steel Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401034#hl_1",
+    "fillings": [
+      "Hamburger"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Sweet Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Steel",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Steel",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Steel",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Steel Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401034#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Hamburger",
+      "Hamburger",
+      "Hamburger"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Steel",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Steel",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Steel",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Fire Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401035#hl_1",
+    "fillings": [
+      "Red Bell Pepper"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Spicy Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fire",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fire",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fire",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Fire Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401035#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Red Bell Pepper",
+      "Red Bell Pepper",
+      "Red Bell Pepper"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fire",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fire",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fire",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Water Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401036#hl_1",
+    "fillings": [
+      "Cucumber"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Water",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Water",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Water",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Water Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401036#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Cucumber",
+      "Cucumber",
+      "Cucumber",
+      "Pickle"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour or Sweet + Sweet"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Water",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Water",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Water",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Grass Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401037#hl_1",
+    "fillings": [
+      "Lettuce"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Sour Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Grass",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Grass",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Grass",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Grass Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401037#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Lettuce",
+      "Lettuce",
+      "Lettuce"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Grass",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Grass",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Grass",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Electric Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401038#hl_1",
+    "fillings": [
+      "Yellow Bell Pepper"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Electric",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Electric",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Electric",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Electric Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401038#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Yellow Bell Pepper",
+      "Yellow Bell Pepper",
+      "Yellow Bell Pepper"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Electric",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Electric",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Electric",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Psychic Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401039#hl_1",
+    "fillings": [
+      "Onion"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Psychic",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Psychic",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Psychic Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401039#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Onion",
+      "Onion",
+      "Onion"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Psychic",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Psychic",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Ice Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401040#hl_1",
+    "fillings": [
+      "Klawf Stick"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ice",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ice",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ice",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Ice Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401040#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Klawf Stick",
+      "Klawf Stick",
+      "Klawf Stick"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour or Sour + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Ice",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Ice",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ice",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Dragon Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401041#hl_1",
+    "fillings": [
+      "Avocado"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Dragon",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Dragon",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dragon",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Dragon Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401041#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Avocado",
+      "Avocado",
+      "Avocado"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour, Sweet + Sweet, or Sour + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Dragon",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Dragon",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dragon",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Dark Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401042#hl_1",
+    "fillings": [
+      "Smoked Fillet"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Sweet Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Dark",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Dark",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dark",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Dark Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401042#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Smoked Fillet",
+      "Smoked Fillet",
+      "Smoked Fillet"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Dark",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Dark",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dark",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Fairy Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401043#hl_1",
+    "fillings": [
+      "Tomato"
+    ],
+    "condiments": [
+      "Salty Herba Mystica",
+      "Salty Herba Mystica"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fairy",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fairy",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fairy",
+        "level": "3"
+      }
+    ]
+  }
+  ,{
+    "note":"Fairy Shiny Sandwich Recipes",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/401043#hl_1",
+    "fillings": [
+      "Cucumber",
+      "Pickle",
+      "Tomato",
+      "Tomato",
+      "Tomato"
+    ],
+    "condiments": [
+      "Any 2 Herba Mystica except Sweet + Sour, Sweet + Sweet, or Sour + Sour"],
+    "effects": [
+      {
+        "name": "Sparkling Power",
+        "type": "Fairy",
+        "level": "3"
+      },
+      {
+        "name": "Title Power",
+        "type": "Fairy",
+        "level": "3"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fairy",
+        "level": "3"
       }
     ]
   }
