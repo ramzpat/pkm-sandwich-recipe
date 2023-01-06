@@ -76,7 +76,6 @@ const FilterContainer:React.FC<{
 
   return (
     <div className="filter-container-main">
-
       <div className="effect-list">
         {
           effects.map(
@@ -87,7 +86,7 @@ const FilterContainer:React.FC<{
               onClick={() => removeEffect(e.id)}
               >
               <span>
-              {e.effect.power}{`${(e.effect.type)?("("+e.effect.type+")"):""}`} Level : {e.effect.level} 
+              {e.effect.power.split(' ')[0]}{`${(e.effect.type)?("("+e.effect.type+")"):""}`} Level : {e.effect.level} 
               </span>
               <div 
                 className="closebtn"
@@ -96,6 +95,11 @@ const FilterContainer:React.FC<{
           )
         }
       </div>
+
+      <div id="popup_container">
+        <span>Test</span>
+        <a href="#">Close</a>
+      </div>  
 
       <PowerFilter
         filter={power}
@@ -112,7 +116,7 @@ const FilterContainer:React.FC<{
       <div 
         className="effect_button" 
         onClick={() => addEffect({power:power, type:type, level:level})} >
-        +Effect
+        Add Effect
       </div>
       <div className="filter_option">
         <div className="filter-title">Options: </div>

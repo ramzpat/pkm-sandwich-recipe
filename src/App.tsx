@@ -25,7 +25,6 @@ function App() {
           onClick={() => {setAlert(false); setAlertMsg("")}}
           >
           {alearMsg}
-
           <div 
             className="closebtn"
           >[x]</div>
