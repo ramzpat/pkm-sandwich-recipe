@@ -9,6 +9,7 @@ import PowerList from "../assets/data/powers.json"
 import { TypeList } from "./TypeFilter"
 import { LevelList } from "./LevelFilter"
 
+import {GoSync, GoCircleSlash} from "react-icons/go"
 import './notice_style.css'
 
 const FilterContainer:React.FC<{ 
@@ -89,7 +90,8 @@ const FilterContainer:React.FC<{
         <div 
           className={`option-toggle ${(useHerbal)?"level-select":"level"}`}
           onClick={()=>{setUseHerbal(!useHerbal)}}
-        >Herbal</div>
+        >Herbal
+        </div>
       </div>
 
       <div className="effect-list-container">
@@ -120,15 +122,15 @@ const FilterContainer:React.FC<{
         <div 
           className="power-box power-select" 
           onClick={()=>{setDisplayEffectChoice(true)}}>
-          {power.split(' ')[0]}</div>
+          {power.split(' ')[0]}<GoSync className="react-icons" size={20}/></div>
         <div 
           className="power-box level-select"
           onClick={()=>{setDisplayTypeChoice(true)}}
-          >{type}</div>
+          >{type}<GoSync className="react-icons" size={20}/></div>
         <div 
           className="level-box level-select"
           onClick={()=>{setDisplayLevelChoice(true)}}>
-            {level}</div>
+            Min Level: {level}<GoSync className="react-icons" size={20}/></div>
       </div>
       <div 
         className="effect_button" 
