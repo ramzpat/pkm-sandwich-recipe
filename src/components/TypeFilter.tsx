@@ -97,24 +97,28 @@ export const pokemon_types:{type_name:string, type_img_icon:string}[] = [
 ]
 
 const TypeFilter: React.FC<{
+  displayTypeChoices:boolean, 
+  setDisplayTypeChoice: React.Dispatch<React.SetStateAction<boolean>>,
   filter:string, 
-  setFilter:React.Dispatch<React.SetStateAction<string>>}> = ({filter, setFilter}) => {
+  setFilter:React.Dispatch<React.SetStateAction<string>>}> = ({displayTypeChoices, setDisplayTypeChoice, filter, setFilter}) => {
   return (
-    <div className="filter-container">
+    <div 
+      className={`filter-container ${(displayTypeChoices)?"":"hide"}`}>
       <div className="filter-title">Type: </div>
-      <div className="type-container">
-      {
-        pokemon_types.map(
-          (pkm_type, index:number) => (
-            <div
-              key={index} 
-              onClick={() => {setFilter(pkm_type.type_name)}}
-              className={`type-box ${(filter === pkm_type.type_name)?"type-select":""}`}>
-                <img className="type-img" src={pkm_type.type_img_icon} />
-            </div>
-          )
-        )
-      }
+      <div>
+        <div className="type-container">
+          {
+          pokemon_types.map(
+            (pkm_type, index:number) => (
+              <div
+                key={index} 
+                onClick={() => {setFilter(pkm_type.type_name);setDisplayTypeChoice(false)}}
+                className={`type-box ${(filter === pkm_type.type_name)?"type-select":""}`}>
+                  <img className="type-img" src={pkm_type.type_img_icon} />
+              </div>
+            )
+          )}
+        </div>  
       </div>
     </div>
   )

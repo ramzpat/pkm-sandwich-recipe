@@ -9,6 +9,10 @@
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+.alert:hover{
+  cursor: pointer;
+}
+
 .error {
   color: #842029;
   background-color: #f8d7da;

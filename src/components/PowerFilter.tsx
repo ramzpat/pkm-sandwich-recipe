@@ -15,10 +15,14 @@ export const PowerList = [
 
 
 const PowerFilter: React.FC<{
+  displayEffectChoices:boolean, 
+  setDisplayEffectChoice: React.Dispatch<React.SetStateAction<boolean>>,
   filter:string, 
-  setFilter:React.Dispatch<React.SetStateAction<string>>}> = ({filter, setFilter}) => {
+  setFilter:React.Dispatch<React.SetStateAction<string>>}> = ({displayEffectChoices, setDisplayEffectChoice, filter, setFilter}) => {
   return (
-    <div className="filter-container">
+    <div 
+      className={`filter-container ${(displayEffectChoices)?"":"hide"}`}
+      >
       <span className="filter-title">Power: </span>
       <div className="power-container">
       {
@@ -26,7 +30,7 @@ const PowerFilter: React.FC<{
           (power:string, index:number) => (
             <div
               key={index} 
-              onClick={() => {setFilter(power)}}
+              onClick={() => {setFilter(power);setDisplayEffectChoice(false);}}
               className={`power-box ${(filter === power)?"power-select":"power-unselect"}`}>
                 {power.split(' ')[0]}
             </div>

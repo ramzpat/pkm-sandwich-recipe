@@ -24,8 +24,12 @@ const FilterContainer:React.FC<{
   const [type, setType] = useState<string>(TypeList[0]);
   const [level, setLevel] = useState<number>(LevelList[0]);
 
-  const [buyable, setBuyable] = useState<boolean>(true); // Enable buyable recipes 
+  const [buyable, setBuyable] = useState<boolean>(false); // Enable buyable recipes 
   const [useHerbal, setUseHerbal] = useState<boolean>(true); // Enable hebal-used recipes 
+
+  const [displayEffectChoices, setDisplayEffectChoice] = useState<boolean>(false);
+  const [displayTypeChoices, setDisplayTypeChoice] = useState<boolean>(false);
+  const [displayLevelChoices, setDisplayLevelChoice] = useState<boolean>(false);
 
   const addEffect = (_effect:effect_filter) => {
     // Check the number of filters 
@@ -76,7 +80,21 @@ const FilterContainer:React.FC<{
 
   return (
     <div className="filter-container-main">
-      <div className="effect-list">
+      <div className="filter_option">
+        <div className="filter-title">Recipe Option: </div>
+        {/* <div 
+        className={`option-toggle ${(buyable)?"level-select":"level"}`}
+        onClick={()=>{setBuyable(!buyable)}}
+        >Buyable</div> */}
+        <div 
+          className={`option-toggle ${(useHerbal)?"level-select":"level"}`}
+          onClick={()=>{setUseHerbal(!useHerbal)}}
+        >Herbal</div>
+      </div>
+
+      <div className="effect-list-container">
+        <div className="filter-title">Effect List:</div>
+        <div className="effect-list">
         {
           effects.map(
             (e, index) => 
@@ -89,46 +107,53 @@ const FilterContainer:React.FC<{
               {e.effect.power.split(' ')[0]}{`${(e.effect.type)?("("+e.effect.type+")"):""}`} Level : {e.effect.level} 
               </span>
               <div 
-                className="closebtn"
+                className="black_closebtn"
               >[x]</div>
             </div>
           )
         }
+        </div>
       </div>
 
-      <div id="popup_container">
-        <span>Test</span>
-        <a href="#">Close</a>
-      </div>  
-
-      <PowerFilter
-        filter={power}
-        setFilter={setPower}
-        />
-      <TypeFilter
-        filter={type}
-        setFilter={setType}
-        />
-      <LevelFilter
-        filter={level}
-        setFilter={setLevel}
-        />
+      <div className="effect-adding-box">
+        <div className="filter-title">Add Effect: </div>
+        <div 
+          className="power-box power-select" 
+          onClick={()=>{setDisplayEffectChoice(true)}}>
+          {power.split(' ')[0]}</div>
+        <div 
+          className="power-box level-select"
+          onClick={()=>{setDisplayTypeChoice(true)}}
+          >{type}</div>
+        <div 
+          className="level-box level-select"
+          onClick={()=>{setDisplayLevelChoice(true)}}>
+            {level}</div>
+      </div>
       <div 
         className="effect_button" 
         onClick={() => addEffect({power:power, type:type, level:level})} >
         Add Effect
       </div>
-      <div className="filter_option">
-        <div className="filter-title">Options: </div>
-        <div 
-        className={`option-toggle ${(buyable)?"level-select":"level"}`}
-        onClick={()=>{setBuyable(!buyable)}}
-        >Buyable</div>
-        <div 
-          className={`option-toggle ${(useHerbal)?"level-select":"level"}`}
-          onClick={()=>{setUseHerbal(!useHerbal)}}
-        >Herbal</div>
-      </div>
+
+      <PowerFilter
+        displayEffectChoices={displayEffectChoices}
+        setDisplayEffectChoice={setDisplayEffectChoice}
+        filter={power}
+        setFilter={setPower}
+        />
+      <TypeFilter
+        displayTypeChoices={displayTypeChoices}
+        setDisplayTypeChoice={setDisplayTypeChoice}
+        filter={type}
+        setFilter={setType}
+        />
+      <LevelFilter
+        displayLevelChoices={displayLevelChoices}
+        setDisplayLevelChoice={setDisplayLevelChoice}
+        filter={level}
+        setFilter={setLevel}
+        />
 
       
     </div>
