@@ -1772,4 +1772,337 @@
       }
     ]
   }
+  ,{
+    "note":"Raid Power Ice Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398142",
+    "fillings": [
+      "Fried Fillet",
+      "Fried Fillet",
+      "Fried Fillet",
+      "Fried Fillet"
+    ],
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper"],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Ice",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Flying",
+        "level": "1"
+      },
+      {
+        "name": "Catching Power",
+        "type": "Normal",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Raid Power Grass Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398142",
+    "fillings": [
+      "Potato Tortilla",
+      "Potato Tortilla",
+      "Potato Tortilla",
+      "Potato Tortilla"
+    ],
+    "condiments": [
+      "Chili Sauce",
+      "Chili Sauce",
+      "Chili Sauce"],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Grass",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Poison",
+        "level": "1"
+      },
+      {
+        "name": "Catching Power",
+        "type": "Fighting",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Encounter Power Water Sandwich Lv. 2",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398132",
+    "fillings": [
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice",
+      "Rice"
+    ],
+    "condiments": [
+      "Cream Cheese",
+      "Salt"],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Water",
+        "level": "2"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Fighting",
+        "level": "2"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Normal",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Raid Power Fighting Sandwich Lv. 2",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398132",
+    "fillings": [
+      "Rice",
+      "Rice",
+      "Rice",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage"
+    ],
+    "condiments": [
+      "Whipped Cream",
+      "Horseradish",
+      "Horseradish",
+      "Chili Sauce"],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Fighting",
+        "level": "2"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ground",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Water",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Exp. Point Power Flying Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398132",
+    "fillings": [
+      "Avocado"
+    ],
+    "condiments": [
+      "Ketchup",
+      "Ketchup"],
+    "effects": [
+      {
+        "name": "Teensy Power",
+        "type": "Dragon",
+        "level": "1"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Poison",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Flying",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Raid Power Poison Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398132",
+    "fillings": [
+      "Green Bell Pepper"
+    ],
+    "condiments": [
+      "Horse Radish",
+      "Horse Radish",
+      "Horse Radish"],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Poison",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Fighting",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Normal",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Raid Power Ground Sandwich Lv. 2",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398132",
+    "fillings": [
+      "Noodles",
+      "Noodles",
+      "Noodles",
+      "Noodles",
+      "Noodles",
+      "Noodles"
+    ],
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Pepper"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Ice",
+        "level": "2"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Ground",
+        "level": "2"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Poison",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Exp. Point Power: Psychic Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398132",
+    "fillings": [
+      "Herbed Sausage"
+    ],
+    "condiments": [
+      "Salt"],
+    "effects": [
+      {
+        "name": "Exp. Point Power",
+        "type": "Psychic",
+        "level": "1"
+      },
+      {
+        "name": "Raid Power",
+        "type": "Ground",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fighting",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Exp. Point Power Grass Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398139",
+    "fillings": [
+      "Cheese",
+      "Cheese",
+      "Rice",
+      "Rice"
+    ],
+    "condiments": [
+      "Chili Sauce"],
+    "effects": [
+      {
+        "name": "Encounter Power",
+        "type": "Water",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Grass",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Exp. Point Power Fire Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398139",
+    "fillings": [
+      "Chorizo",
+      "Chorizo",
+      "Chorizo"
+    ],
+    "condiments": [
+      "Curry Powder",
+      "Curry Powder",
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Fire",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Exp. Point Power: Fairy Sandwich Lv. 1",
+    "ref":"https://game8.co/games/Pokemon-Scarlet-Violet/archives/398139",
+    "fillings": [
+      "Egg",
+      "Cheese",
+      "Cheese",
+      "Cheese"
+    ],
+    "condiments": [
+      "Wasabi",
+      "Wasabi",
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Ice",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Flying",
+        "level": "1"
+      },
+      {
+        "name": "Exp. Point Power",
+        "type": "Fairy",
+        "level": "1"
+      }
+    ]
+  }
 ]

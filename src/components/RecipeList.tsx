@@ -18,13 +18,17 @@ const RecipeList:React.FC<{filter:recipe_filter}> = ({filter}) => {
   if (filter.effect_filters.length === 0) {
     return (
       <div className="recipe-list-container">
+        <p>
         Please add at least 1 effect
+        </p>
       </div>
     )
   } else if (recipes.length === 0){
     return (
       <div className="recipe-list-container">
+        <p>
         Cannot find any recipe
+        </p>
       </div>
     )
   } else {

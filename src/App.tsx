@@ -44,7 +44,7 @@ function App() {
           </small>
           <span> | </span>
           <small>
-          Last update: 2023-01-07
+          Last update: 2023-01-08
           </small>
         </div>
       </header>
