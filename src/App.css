@@ -38,6 +38,21 @@
   }
 }
 
+.footer{
+  /* position: fixed; */
+  /* left: 0; */
+  /* bottom: 10px; */
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
 .effect-adding-box {
   width: 95%;
   height: fit-content;
@@ -107,7 +122,7 @@
 
 .power-box {
   display: inline-block;
-  margin: 0px 5px auto;
+  margin: 5px 5px auto;
   padding: 0px 5px;
   /* width: 200px; */
   border: 3px white;
@@ -124,6 +139,7 @@
 .power-select {
   background-color: #61dafb;
 }
+
 
 .type-container {
   /* height:fit-content; */
@@ -167,7 +183,6 @@
 .filter-container-main {
   width: 95%;
   margin-top: 1vh;
-
   /* background-color:#61dafb; */
   height: 40vh;
   position: relative;
@@ -207,9 +222,17 @@
   padding: 10px;
 }
 
+.ingre-container {
+  margin-left: 10px;
+  border: 2px dashed white;
+  border-radius: 10px;
+  padding: 5px 5px;
+  text-align: left;
+}
+
 .ingredient-box {
   display: inline-block;
-  margin: 0px 10px auto;
+  margin: 5px 5px auto;
   min-width: 50px;
   padding: 5px 5px;
   border: 3px white;
@@ -233,7 +256,7 @@
 }
 
 .react-icons {
-  margin: 5px;
+  margin: 10px;
   vertical-align: middle;
 }
 
@@ -357,15 +380,10 @@
   margin: 0 auto;
   top: 25%;
 } */
-.black_closebtn {
+.box_closebtn {
   margin-left: 15px;
   color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
   cursor: pointer;
-  transition: 0.3s;
 }
 
 .black_closebtn:hover {

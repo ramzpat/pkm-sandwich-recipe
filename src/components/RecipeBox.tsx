@@ -11,7 +11,7 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
         <div className={`ingredient ${(recipe.fillings.length > 0 && recipe.condiments.length > 0)?"":"hide"}`}>
           <div className="fillings filter_option">
             <div className="filter-title">Fillings: </div>
-            <div className="type-container">
+            <div className="ingre-container">
             {
               recipe.fillings.map(
                 (filling, index) => (
@@ -23,7 +23,7 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
           </div>
           <div className="condiments filter_option">
             <div className="filter-title">Condiments: </div>
-            <div className="type-container">
+            <div className="ingre-container">
             {
               recipe.condiments.map(
                 (condiment, index) => (
@@ -36,7 +36,7 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
         </div>
         <div className="effects filter_option">
           <div className="filter-title">Effects: </div>
-          <div className="type-container">
+          <div className="ingre-container">
           {
             recipe.effects.map(
               (effect, index) => (

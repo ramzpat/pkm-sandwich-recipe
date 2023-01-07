@@ -113,8 +113,9 @@ const TypeFilter: React.FC<{
               <div
                 key={index} 
                 onClick={() => {setFilter(pkm_type.type_name);setDisplayTypeChoice(false)}}
-                className={`type-box ${(filter === pkm_type.type_name)?"type-select":""}`}>
-                  <img className="type-img" src={pkm_type.type_img_icon} />
+                className={`power-box ${(filter === pkm_type.type_name)?"power-select":""}`}>
+                  {/* <img className="type-img" src={pkm_type.type_img_icon} /> */}
+                  {pkm_type.type_name}
               </div>
             )
           )}

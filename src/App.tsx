@@ -5,6 +5,7 @@ import { recipe_filter } from './scripts/data_model';
 
 import FilterContainer from './components/FilterContainer';
 import RecipeList from './components/RecipeList';
+import {BiXCircle} from 'react-icons/bi'
 
 function App() {
   // Filters for recipes 
@@ -25,11 +26,11 @@ function App() {
           onClick={() => {setAlert(false); setAlertMsg("")}}
           >
           {alearMsg}
-          <div 
+          <BiXCircle
             className="closebtn"
-          >[x]</div>
+            size={30}
+          />
         </div>
-
         <RecipeList filter={filter}/>
         <FilterContainer
           filter={filter}
@@ -37,6 +38,15 @@ function App() {
           setAlert={setAlert}
           setAlertMsg={setAlertMsg}
           />
+        <div className="footer">
+          <small>
+          <a href="https://github.com/ramzpat/pkm-sandwich-recipe">Source code</a>
+          </small>
+          <span> | </span>
+          <small>
+          Last update: 2023-01-07
+          </small>
+        </div>
       </header>
     </div>
   );

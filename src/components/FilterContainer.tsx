@@ -9,7 +9,9 @@ import PowerList from "../assets/data/powers.json"
 import { TypeList } from "./TypeFilter"
 import { LevelList } from "./LevelFilter"
 
-import {GoSync, GoCircleSlash} from "react-icons/go"
+import {GoSync, GoX} from "react-icons/go"
+
+import {BiXCircle} from "react-icons/bi"
 import './notice_style.css'
 
 const FilterContainer:React.FC<{ 
@@ -108,9 +110,7 @@ const FilterContainer:React.FC<{
               <span>
               {e.effect.power.split(' ')[0]}{`${(e.effect.type)?("("+e.effect.type+")"):""}`} Level : {e.effect.level} 
               </span>
-              <div 
-                className="black_closebtn"
-              >[x]</div>
+              <BiXCircle className="  box_closebtn" size={24}/>
             </div>
           )
         }
@@ -128,9 +128,9 @@ const FilterContainer:React.FC<{
           onClick={()=>{setDisplayTypeChoice(true)}}
           >{type}<GoSync className="react-icons" size={20}/></div>
         <div 
-          className="level-box level-select"
+          className="power-box level-select"
           onClick={()=>{setDisplayLevelChoice(true)}}>
-            Min Level: {level}<GoSync className="react-icons" size={20}/></div>
+          Level &#8805; {level}<GoSync className="react-icons" size={20}/></div>
       </div>
       <div 
         className="effect_button" 
