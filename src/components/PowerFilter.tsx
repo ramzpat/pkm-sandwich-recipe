@@ -13,7 +13,6 @@ export const PowerList = [
   "Teensy Power"
 ];
 
-
 const PowerFilter: React.FC<{
   displayEffectChoices:boolean, 
   setDisplayEffectChoice: React.Dispatch<React.SetStateAction<boolean>>,
@@ -21,17 +20,17 @@ const PowerFilter: React.FC<{
   setFilter:React.Dispatch<React.SetStateAction<string>>}> = ({displayEffectChoices, setDisplayEffectChoice, filter, setFilter}) => {
   return (
     <div 
-      className={`filter-container ${(displayEffectChoices)?"":"hide"}`}
+      className={`popup_container ${(displayEffectChoices)?"":"hide"}`}
       >
-      <span className="filter-title">Power: </span>
-      <div className="power-container">
+      <span className="filter_title">Power: </span>
+      <div className="column_container">
       {
         PowerList.map(
           (power:string, index:number) => (
             <div
               key={index} 
               onClick={() => {setFilter(power);setDisplayEffectChoice(false);}}
-              className={`power-box ${(filter === power)?"power-select":"power-unselect"}`}>
+              className={`clickable_box ${(filter === power)?"active_box":""}`}>
                 {power.split(' ')[0]}
             </div>
           )

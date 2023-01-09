@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { effect_filter, recipe_filter, sandwich_recipe } from "../scripts/data_model"
+import { recipe_filter, sandwich_recipe } from "../scripts/data_model"
 import { prepare_sandwiches_onLoad, search_recipes } from "../scripts/search_recipes"
 import RecipeBox from "./RecipeBox"
 
@@ -17,7 +17,7 @@ const RecipeList:React.FC<{filter:recipe_filter}> = ({filter}) => {
 
   if (filter.effect_filters.length === 0) {
     return (
-      <div className="recipe-list-container">
+      <div id="recipe_list">
         <p>
         Please add at least 1 effect
         </p>
@@ -25,7 +25,7 @@ const RecipeList:React.FC<{filter:recipe_filter}> = ({filter}) => {
     )
   } else if (recipes.length === 0){
     return (
-      <div className="recipe-list-container">
+      <div id="recipe_list">
         <p>
         Cannot find any recipe
         </p>
@@ -33,7 +33,7 @@ const RecipeList:React.FC<{filter:recipe_filter}> = ({filter}) => {
     )
   } else {
     return (
-      <div className="recipe-list-container">
+      <div id="recipe_list">
       {
         recipes.map(
           (recipe, index) => (      

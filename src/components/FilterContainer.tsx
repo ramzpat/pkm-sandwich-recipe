@@ -6,13 +6,15 @@ import PowerFilter from "./PowerFilter"
 import LevelFilter from "./LevelFilter"
 
 import PowerList from "../assets/data/powers.json"
-import { TypeList } from "./TypeFilter"
+import { TypeList, get_type_css } from "./TypeFilter"
 import { LevelList } from "./LevelFilter"
 
-import {GoSync, GoX} from "react-icons/go"
+import {GoSync} from "react-icons/go"
 
 import {BiXCircle} from "react-icons/bi"
-import './notice_style.css'
+
+import '../styles/filter-interface.css'
+import '../styles/pokemon-type.css'
 
 const FilterContainer:React.FC<{ 
     filter:recipe_filter,
@@ -27,6 +29,7 @@ const FilterContainer:React.FC<{
   const [type, setType] = useState<string>(TypeList[0]);
   const [level, setLevel] = useState<number>(LevelList[0]);
 
+  // eslint-disable-next-line
   const [buyable, setBuyable] = useState<boolean>(false); // Enable buyable recipes 
   const [useHerbal, setUseHerbal] = useState<boolean>(true); // Enable hebal-used recipes 
 
@@ -43,7 +46,7 @@ const FilterContainer:React.FC<{
     }
     // Check if the power already added
     let canAdd = true;
-    effects.map(
+    effects.forEach(
       (e) => {
         if (e.effect.power === _effect.power) {
           setAlertMsg("Cannot add the same power effect.")
@@ -78,62 +81,61 @@ const FilterContainer:React.FC<{
       showBuyable:buyable,
       showHerbal:useHerbal
     })
-  }, [effects, buyable, useHerbal])
-
+  }, [setFilter, effects, buyable, useHerbal])
 
   return (
-    <div className="filter-container-main">
-      <div className="filter_option">
-        <div className="filter-title">Recipe Option: </div>
+    <div id="filter_container">
+      <div id="recipe_option">
+        <div className="filter_title">Recipe Option: </div>
         {/* <div 
-        className={`option-toggle ${(buyable)?"level-select":"level"}`}
+        className={`clickable_box ${(buyable)?"active_box":""}`}
         onClick={()=>{setBuyable(!buyable)}}
         >Buyable</div> */}
         <div 
-          className={`option-toggle ${(useHerbal)?"level-select":"level"}`}
+          className={`clickable_box ${(useHerbal)?"active_box":""}`}
           onClick={()=>{setUseHerbal(!useHerbal)}}
         >Herbal
         </div>
       </div>
 
-      <div className="effect-list-container">
-        <div className="filter-title">Effect List:</div>
+      <div className="row_container">
+        <div className="filter_title">Effect List:</div>
         <div className="effect-list">
         {
           effects.map(
             (e, index) => 
             <div
               key={index} 
-              className="filter-box"
+              className="clickable_box active_box"
               onClick={() => removeEffect(e.id)}
               >
               <span>
-              {e.effect.power.split(' ')[0]}{`${(e.effect.type)?("("+e.effect.type+")"):""}`} Level : {e.effect.level} 
+              {e.effect.power.split(' ')[0]}{`${(e.effect.type)?("("+e.effect.type+")"):""}`} Lv: {e.effect.level} 
               </span>
-              <BiXCircle className="  box_closebtn" size={24}/>
+              <BiXCircle className="box_closebtn" size={20}/>
             </div>
           )
         }
         </div>
       </div>
 
-      <div className="effect-adding-box">
-        <div className="filter-title">Add Effect: </div>
+      <div className="row_container">
+        <div className="filter_title">Add Effect: </div>
         <div 
-          className="power-box power-select" 
+          className="clickable_box active_box" 
           onClick={()=>{setDisplayEffectChoice(true)}}>
           {power.split(' ')[0]}<GoSync className="react-icons" size={20}/></div>
         <div 
-          className="power-box level-select"
+          className={`clickable_box active_box ${get_type_css(type)}`}
           onClick={()=>{setDisplayTypeChoice(true)}}
           >{type}<GoSync className="react-icons" size={20}/></div>
         <div 
-          className="power-box level-select"
+          className="clickable_box active_box"
           onClick={()=>{setDisplayLevelChoice(true)}}>
-          Level &#8805; {level}<GoSync className="react-icons" size={20}/></div>
+          Level&#8805; {level}<GoSync className="react-icons" size={20}/></div>
       </div>
       <div 
-        className="effect_button" 
+        className="add_effect_button" 
         onClick={() => addEffect({power:power, type:type, level:level})} >
         Add Effect
       </div>

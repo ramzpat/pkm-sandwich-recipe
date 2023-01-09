@@ -1,0 +1,113 @@
+#app-interface {
+  width: 90%;
+  max-width: 700px;
+  min-height: 600px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#footer{
+  color: white;
+  text-align: center;
+  width:100%;
+  margin-top: 20px;
+}
+
+a {
+  color: white;
+}
+
+#recipe_list {
+  width: 100%;
+  margin-top: 0px;
+  height:300px;
+  flex-direction: column;
+  overflow-y: scroll;
+
+  background-color: darkslategray;
+  border-radius: 5px;
+}
+
+#recipe_list p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#filter_container {
+  width: 100%;
+  margin-top: 10px;
+  min-height: 250px;
+  position: relative;
+}
+
+/* ---- Global CSS ---- */
+
+.row_container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.column_container {
+  border: 2px dashed white;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+
+.popup_container{
+  display: flex;
+  margin-top: 10px;
+  
+  border-color: white;
+  border: 1px white solid;
+  border-radius: 5px;
+  
+  margin: 0px 0px auto;
+  border: 1px solid;
+  border-radius: 5px;
+
+  position: absolute;
+  transform: translate(0, -100%); 
+  padding: 10px;
+  width: 95%;
+  min-height: 30%;
+  background-color: black;
+  transition: all .2s ease-in-out;
+}
+
+.react-icons {
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.clickable_box {
+  border: 3px white;
+  border-style: double;
+  border-width: 1px dash;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px 5px;
+
+  display: inline-block;
+  margin: 5px 5px auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.active_box {
+  background-color: #61dafb;
+}
+
+.box_closebtn {
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

@@ -9,16 +9,16 @@ const LevelFilter:React.FC<{
   setFilter:React.Dispatch<React.SetStateAction<number>>}> = ({displayLevelChoices, setDisplayLevelChoice, filter, setFilter}) => {
   return (
     <div 
-      className={`filter-container ${(displayLevelChoices)?"":"hide"}`}
+      className={`popup_container ${(displayLevelChoices)?"":"hide"}`}
       >
-      <div className="filter-title">Min Level: </div>
-      <div className="choice-container">
+      <div className="filter_title">Min Level: </div>
+      <div className="lvl_choice_container">
       {
         LevelList.map(
           (_level:number) => (
           <div 
             key={_level}
-            className={`level-box three-items ${(filter === _level)?"level-select":"level"}`}
+            className={`clickable_box level_box ${(filter === _level)?"active_box":""}`}
             onClick={() => { setFilter(_level);setDisplayLevelChoice(false) }}>
           {_level}
           </div>

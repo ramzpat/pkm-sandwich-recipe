@@ -10,7 +10,7 @@ let _creative_sandwiches:sandwich_recipe[] = []
 
 export function prepare_sandwiches_onLoad() {
   // Prepare standard sandwiches 
-  standard_sandwiches.map(
+  standard_sandwiches.forEach(
     (e) => {
       _standard_sandwiches.push(
         {
@@ -25,7 +25,7 @@ export function prepare_sandwiches_onLoad() {
       )
     }
   )
-  shop_sandwiches.map(
+  shop_sandwiches.forEach(
     (e) => {
       _shop_sandwiches.push(
         {
@@ -40,7 +40,7 @@ export function prepare_sandwiches_onLoad() {
       )
     }
   )
-  creative_sandwiches.map(
+  creative_sandwiches.forEach(
     (e) => {
       _creative_sandwiches.push(
         {
@@ -57,7 +57,7 @@ export function prepare_sandwiches_onLoad() {
 
 const sandwich_match_condition = (recipe:sandwich_recipe, _filter:effect_filter):boolean => {
   let is_match:boolean = false;
-  recipe.effects.map(
+  recipe.effects.forEach(
     (effect) => {
       if (effect.name === _filter.power 
         && (+effect.level) >= _filter.level) {
@@ -94,7 +94,7 @@ export function search_recipes(
     all_sandwiches = all_sandwiches.filter(
       (sandwich) => {
         let useHerbal = false;
-        sandwich.condiments.map(
+        sandwich.condiments.forEach(
           (condi) => {
             if (condi.indexOf("Herba") >= 0)
               useHerbal = true; 
@@ -106,7 +106,7 @@ export function search_recipes(
   }
   
   // Filter sandwich based on the selected effects 
-  _filter.effect_filters.map(
+  _filter.effect_filters.forEach(
     (filter) => {
       all_sandwiches = all_sandwiches.filter(
         (sandwich) => sandwich_match_condition(sandwich, filter)

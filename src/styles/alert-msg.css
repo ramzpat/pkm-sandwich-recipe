@@ -1,0 +1,32 @@
+/* The alert message box */
+.alert_msg {
+  position: absolute;
+  left:50%;
+  width:95%;
+
+  transform: translate(-50%, 10px);
+  padding: 5px;
+
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.error {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: lightcoral;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}

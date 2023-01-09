@@ -1,0 +1,44 @@
+
+#recipe_option {
+  width: 100%;
+  display: flex;
+}
+
+.filter_title {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.lvl_choice_container {
+  height:fit-content;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  margin-left: 10px;
+
+  border: 2px dashed white;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+.level_box {
+  width: 20%;
+  display: inline-block;
+  margin: 0px 10px auto;
+  min-width: 50px;
+  
+  border: 3px white;
+  border-style: double;
+  border-width: 1px dash;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add_effect_button {
+  padding: 5px 50px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #61dafb;
+  cursor: pointer;
+  text-align: center;
+}
