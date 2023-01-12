@@ -1,0 +1,539 @@
+[
+  {
+    "note":"Sim: Jalapeno-3_Wasabi",
+    "fillings": [
+      "Jalapeno"
+    ],
+    "condiments": [
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Fairy",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Grass",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Rock",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Pineapple-3_Curry Powder",
+    "fillings": [
+      "Pineapple"
+    ],
+    "condiments": [
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Water",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Dark",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Ground",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Kiwi-3_Curry Powder",
+    "fillings": [
+      "Kiwi"
+    ],
+    "condiments": [
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Fire",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Dragon",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Poison",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Rice-1_Curry Powder",
+    "fillings": [
+      "Rice"
+    ],
+    "condiments": [
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Fire",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Grass",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Water",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Rice-1_Horseradish,Vinegar",
+    "fillings": [
+      "Rice"
+    ],
+    "condiments": [
+      "Horseradish",
+      "Vinegar"],
+    "effects": [
+      {
+        "name": "Teensy Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Flying",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Fighting",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Rice-1_Vinegar,Wasabi",
+    "fillings": [
+      "Rice"
+    ],
+    "condiments": [
+      "Vinegar",
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Teensy Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Flying",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Fighting",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Noodles-1_Curry Powder",
+    "fillings": [
+      "Noodles"
+    ],
+    "condiments": [
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Poison",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Rock",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Ground",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Curry Powder",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Ghost",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Olive Oil",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Olive Oil"],
+    "effects": [
+      {
+        "name": "Teensy Power",
+        "type": "Ghost",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Bug",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Curry Powder,Curry Powder",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Curry Powder",
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ghost",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Curry Powder,Horseradish",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Curry Powder",
+      "Curry Powder"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ghost",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Curry Powder,Wasabi",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Curry Powder",
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ghost",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Horseradish,Horseradish",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Horseradish",
+      "Horseradish"],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Bug",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Steel",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ghost",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Rice-1_Olive Oil,Olive Oil",
+    "fillings": [
+      "Rice"
+    ],
+    "condiments": [
+      "Olive Oil",
+      "Olive Oil"],
+    "effects": [
+      {
+        "name": "Teensy Power",
+        "type": "Fire",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Grass",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Rice-1_Olive Oil,Vinegar",
+    "fillings": [
+      "Rice"
+    ],
+    "condiments": [
+      "Olive Oil",
+      "Vinegar"],
+    "effects": [
+      {
+        "name": "Teensy Power",
+        "type": "Fire",
+        "level": "1"
+      },
+      {
+        "name": "Item Drop Power",
+        "type": "Normal",
+        "level": "1"
+      },
+      {
+        "name": "Humungo Power",
+        "type": "Grass",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Noodles-1_Curry Powder,Wasabi",
+    "fillings": [
+      "Noodles"
+    ],
+    "condiments": [
+      "Curry Powder",
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Electric",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Ice",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Noodles-1_Wasabi,Wasabi",
+    "fillings": [
+      "Noodles"
+    ],
+    "condiments": [
+      "Wasabi",
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Electric",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Ice",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Psychic",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Wasabi",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Dragon",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Fairy",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Dark",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Horseradish,Wasabi",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Horseradish",
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Raid Power",
+        "type": "Dragon",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Fairy",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dark",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Potato Salad-1_Wasabi,Wasabi",
+    "fillings": [
+      "Potato Salad"
+    ],
+    "condiments": [
+      "Wasabi",
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Dragon",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Fairy",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Dark",
+        "level": "1"
+      }
+    ]
+  }
+  ,{
+    "note":"Sim: Noodles-1_Wasabi",
+    "fillings": [
+      "Noodles"
+    ],
+    "condiments": [
+      "Wasabi"],
+    "effects": [
+      {
+        "name": "Humungo Power",
+        "type": "Electric",
+        "level": "1"
+      },
+      {
+        "name": "Encounter Power",
+        "type": "Ice",
+        "level": "1"
+      },
+      {
+        "name": "Teensy Power",
+        "type": "Psychic",
+        "level": "1"
+      }
+    ]
+  }
+]

@@ -3,6 +3,7 @@ import { effect_filter, recipe_filter, sandwich_recipe } from "./data_model";
 import standard_sandwiches from '../assets/data/sandwiches.json'
 import shop_sandwiches from '../assets/data/sandwiches_shop.json'
 import creative_sandwiches from '../assets/data/sandwiches_creative.json'
+import cre_sim_sandwiches from '../assets/data/sandwiches_cre_sim.json'
 
 let _standard_sandwiches:sandwich_recipe[] = []
 let _shop_sandwiches:sandwich_recipe[] = []
@@ -41,6 +42,18 @@ export function prepare_sandwiches_onLoad() {
     }
   )
   creative_sandwiches.forEach(
+    (e) => {
+      _creative_sandwiches.push(
+        {
+          name: "Creative mode",
+          description: "Creative sandwich",
+          fillings:e.fillings,
+          condiments:e.condiments,
+          effects: e.effects
+        })
+    }
+  )
+  cre_sim_sandwiches.forEach(
     (e) => {
       _creative_sandwiches.push(
         {
