@@ -1,0 +1,920 @@
+[
+    {
+        "note": "Bacon-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Bacon"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Rock",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Basil-4_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Basil"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Fire",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Fire",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Fire",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Cheese-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Cheese"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Normal",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Cherry Tomatoes-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Cherry Tomatoes"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Bug",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Bug",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Bug",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Chorizo-3_Bitter Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Chorizo"
+        ],
+        "condiments": [
+            "Bitter Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Normal",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Chorizo-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Chorizo"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Normal",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Chorizo-3_Spicy Herba Mystica,Sour Herba Mystica",
+        "fillings": [
+            "Chorizo"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Sour Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Normal",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Cucumber-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Cucumber"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Water",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Water",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Water",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Sliced Egg-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Sliced Egg"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Flying",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Flying",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Flying",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Fried Fillet-1_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Fried Fillet"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Normal",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Green Bell Pepper-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Green Bell Pepper"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Poison",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Poison",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Poison",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Ham-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Ham"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Ground",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Ground",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Ground",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Hamburger-1_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Hamburger"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Steel",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Steel",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Steel",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Herbed Sausage-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Herbed Sausage"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Fighting",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Fighting",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Fighting",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Jalapeno-3_Bitter Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Jalapeno"
+        ],
+        "condiments": [
+            "Bitter Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Rock",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Jalapeno-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Jalapeno"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Rock",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Jalapeno-3_Spicy Herba Mystica,Salty Herba Mystica",
+        "fillings": [
+            "Jalapeno"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Salty Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Rock",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Jalapeno-3_Spicy Herba Mystica,Sour Herba Mystica",
+        "fillings": [
+            "Jalapeno"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Sour Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Rock",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Rock",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Kiwi-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Kiwi"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Poison",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Poison",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Poison",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Lettuce-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Lettuce"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Grass",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Grass",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Grass",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Noodles-1_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Noodles"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Poison",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Poison",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Poison",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Onion-3_Bitter Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Onion"
+        ],
+        "condiments": [
+            "Bitter Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Psychic",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Psychic",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Psychic",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Onion-3_Spicy Herba Mystica,Salty Herba Mystica",
+        "fillings": [
+            "Onion"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Salty Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Psychic",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Psychic",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Psychic",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Onion-3_Spicy Herba Mystica,Sour Herba Mystica",
+        "fillings": [
+            "Onion"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Sour Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Psychic",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Psychic",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Psychic",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Pickle-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Pickle"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Fighting",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Fighting",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Fighting",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Pineapple-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Pineapple"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Ground",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Ground",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Ground",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Potato Salad-1_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Potato Salad"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Bug",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Bug",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Bug",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Potato Tortilla-1_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Potato Tortilla"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Fighting",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Fighting",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Fighting",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Prosciutto-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Prosciutto"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Flying",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Flying",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Flying",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Red Bell Pepper-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Red Bell Pepper"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Fire",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Fire",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Fire",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Smoked Fillet-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Smoked Fillet"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Dark",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Dark",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Dark",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Tomato-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Tomato"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Fairy",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Fairy",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Fairy",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Watercress-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Watercress"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Normal",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Normal",
+                "level": "3"
+            }
+        ]
+    },
+    {
+        "note": "Yellow Bell Pepper-3_Spicy Herba Mystica,Spicy Herba Mystica",
+        "fillings": [
+            "Yellow Bell Pepper"
+        ],
+        "condiments": [
+            "Spicy Herba Mystica",
+            "Spicy Herba Mystica"
+        ],
+        "effects": [
+            {
+                "name": "Sparkling Power",
+                "type": "Electric",
+                "level": "3"
+            },
+            {
+                "name": "Title Power",
+                "type": "Electric",
+                "level": "3"
+            },
+            {
+                "name": "Humungo Power",
+                "type": "Electric",
+                "level": "3"
+            }
+        ]
+    }
+]

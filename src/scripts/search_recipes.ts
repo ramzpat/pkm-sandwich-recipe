@@ -4,6 +4,8 @@ import standard_sandwiches from '../assets/data/sandwiches.json'
 import shop_sandwiches from '../assets/data/sandwiches_shop.json'
 import creative_sandwiches from '../assets/data/sandwiches_creative.json'
 import cre_sim_sandwiches from '../assets/data/sandwiches_cre_sim.json'
+import gen_teensy from "../assets/data/sandwiches_gen_teensy.json"
+import gen_humungo from "../assets/data/sandwiches_gen_humungo.json"
 
 let _standard_sandwiches:sandwich_recipe[] = []
 let _shop_sandwiches:sandwich_recipe[] = []
@@ -59,6 +61,30 @@ export function prepare_sandwiches_onLoad() {
         {
           name: "Creative mode",
           description: "Creative sandwich",
+          fillings:e.fillings,
+          condiments:e.condiments,
+          effects: e.effects
+        })
+    }
+  )
+  gen_teensy.forEach(
+    (e) => {
+      _creative_sandwiches.push(
+        {
+          name: "(Auto-gen) Creative mode",
+          description: "This is not checked yet.",
+          fillings:e.fillings,
+          condiments:e.condiments,
+          effects: e.effects
+        })
+    }
+  )
+  gen_humungo.forEach(
+    (e) => {
+      _creative_sandwiches.push(
+        {
+          name: "(Auto-gen) Creative mode",
+          description: "This is not checked yet.",
           fillings:e.fillings,
           condiments:e.condiments,
           effects: e.effects
