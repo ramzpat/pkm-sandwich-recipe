@@ -2,20 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  /* height: calc(100vh - env(safe-area-inset-bottom)); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +13,13 @@
   color: white;
   height: 90%;
 }
+
+@media screen {
+  .App-header {
+    height: -webkit-fill-available;
+  }
+}
+
 
 .App-link {
   color: #61dafb;

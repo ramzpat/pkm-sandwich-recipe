@@ -1,18 +1,22 @@
 #app-interface {
   width: 90%;
   max-width: 700px;
-  min-height: 600px;
   margin: 10px;
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
+  /* min-height: calc(100vh - 85px - env(safe-area-inset-bottom)); */
 }
+
 
 #footer{
   color: white;
   text-align: center;
   width:100%;
-  margin-top: 20px;
+  height: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -22,9 +26,9 @@ a {
 #recipe_list {
   width: 100%;
   margin-top: 0px;
-  height:300px;
+  height:450px;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   background-color: darkslategray;
   border-radius: 5px;
@@ -38,9 +42,10 @@ a {
 }
 
 #filter_container {
+  margin-top: auto;
   width: 100%;
   margin-top: 10px;
-  min-height: 250px;
+  font-size: large;
   position: relative;
 }
 

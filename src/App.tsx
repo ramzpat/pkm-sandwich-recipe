@@ -32,7 +32,7 @@ function App() {
         </small>
         <span> | </span>
         <small>
-        Last update: 2023-01-12
+        Last update: 2023-01-14
         </small>
       </div>
     )
@@ -56,8 +56,8 @@ function App() {
             setAlert={setAlert}
             setAlertMsg={setAlertMsg}
             />
-          <Footer/>
         </div>
+        <Footer/>
         <AlearMsg />
       </header>
     </div>
