@@ -1,0 +1,1271 @@
+[
+  {
+      "note": "Apple-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Apple"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Flying",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Apple-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Apple"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Flying",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Apple-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Apple"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Flying",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Avocado-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Avocado"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Dragon",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Dragon",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Dragon",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Avocado-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Avocado"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Dragon",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Dragon",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Dragon",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Avocado-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Avocado"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Dragon",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Dragon",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Dragon",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Bacon-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Bacon"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Rock",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Rock",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Rock",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Banana-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Banana"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Normal",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Banana-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Banana"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Normal",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Banana-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Banana"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Normal",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Cheese-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Cheese"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Normal",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Cherry Tomatoes-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Cherry Tomatoes"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Bug",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Bug",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Bug",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Cherry Tomatoes-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Cherry Tomatoes"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Bug",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Bug",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Bug",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Cherry Tomatoes-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Cherry Tomatoes"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Bug",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Bug",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Bug",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Cucumber-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Cucumber"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Water",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Water",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Water",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Cucumber-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Cucumber"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Water",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Water",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Water",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Fried Fillet-1_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Fried Fillet"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Normal",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Green Bell Pepper-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Green Bell Pepper"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Poison",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Ham-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Ham"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ground",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Jalapeno-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Jalapeno"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Rock",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Rock",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Rock",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Kiwi-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Kiwi"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Poison",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Kiwi-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Kiwi"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Poison",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Kiwi-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Kiwi"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Poison",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Poison",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Klawf Stick-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Klawf Stick"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ice",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ice",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ice",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Klawf Stick-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Klawf Stick"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ice",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ice",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ice",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Lettuce-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Lettuce"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Grass",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Grass",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Grass",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Onion-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Onion"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Psychic",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Psychic",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Psychic",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Pickle-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Pickle"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fighting",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Pickle-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Pickle"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fighting",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Pineapple-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Pineapple"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ground",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Pineapple-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Pineapple"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ground",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Pineapple-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Pineapple"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ground",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ground",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Potato Tortilla-1_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Potato Tortilla"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fighting",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Prosciutto-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Prosciutto"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Flying",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Flying",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Red Bell Pepper-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Red Bell Pepper"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fire",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fire",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fire",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Red Onion-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Red Onion"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ghost",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ghost",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ghost",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Red Onion-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Red Onion"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Ghost",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Ghost",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Ghost",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Smoked Fillet-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Smoked Fillet"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Dark",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Dark",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Dark",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Strawberry-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Strawberry"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fighting",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Strawberry-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Strawberry"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fighting",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Strawberry-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Strawberry"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fighting",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fighting",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Tofu-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Tofu"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Normal",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Tofu-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Tofu"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Normal",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Normal",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Tomato-3_Sour Herba Mystica,Sour Herba Mystica",
+      "fillings": [
+          "Tomato"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sour Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fairy",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fairy",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fairy",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Tomato-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Tomato"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fairy",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fairy",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fairy",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Tomato-3_Sweet Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Tomato"
+      ],
+      "condiments": [
+          "Sweet Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Fairy",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Fairy",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Fairy",
+              "level": "3"
+          }
+      ]
+  },
+  {
+      "note": "Yellow Bell Pepper-3_Sour Herba Mystica,Sweet Herba Mystica",
+      "fillings": [
+          "Yellow Bell Pepper"
+      ],
+      "condiments": [
+          "Sour Herba Mystica",
+          "Sweet Herba Mystica"
+      ],
+      "effects": [
+          {
+              "name": "Sparkling Power",
+              "type": "Electric",
+              "level": "3"
+          },
+          {
+              "name": "Title Power",
+              "type": "Electric",
+              "level": "3"
+          },
+          {
+              "name": "Catching Power",
+              "type": "Electric",
+              "level": "3"
+          }
+      ]
+  }
+]

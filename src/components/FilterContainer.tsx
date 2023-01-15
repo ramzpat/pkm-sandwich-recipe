@@ -93,6 +93,7 @@ const FilterContainer:React.FC<{
         >Buyable</div> */}
         <div 
           className={`clickable_box ${(useHerbal)?"active_box":""}`}
+          style={{marginTop:"0px", marginBottom:"0px"}}
           onClick={()=>{setUseHerbal(!useHerbal)}}
         >Herbal
         </div>
@@ -106,7 +107,8 @@ const FilterContainer:React.FC<{
             (e, index) => 
             <div
               key={index} 
-              className="clickable_box active_box"
+              className={`clickable_box active_box ${(e.effect.type)?get_type_css(e.effect.type):""}`}
+              style={{marginTop:"0px", marginBottom:"5px"}}
               onClick={() => removeEffect(e.id)}
               >
               <span>
@@ -123,14 +125,17 @@ const FilterContainer:React.FC<{
         <div className="filter_title">Add Effect: </div>
         <div 
           className="clickable_box active_box" 
+          style={{marginTop:"0px", marginBottom:"5px"}}
           onClick={()=>{setDisplayEffectChoice(true)}}>
           {power.split(' ')[0]}<GoSync className="react-icons" size={20}/></div>
         <div 
           className={`clickable_box active_box ${get_type_css(type)}`}
+          style={{marginTop:"0px", marginBottom:"5px"}}
           onClick={()=>{setDisplayTypeChoice(true)}}
           >{type}<GoSync className="react-icons" size={20}/></div>
         <div 
           className="clickable_box active_box"
+          style={{marginTop:"0px", marginBottom:"5px", paddingTop:"0px", paddingBottom:"0px"}}
           onClick={()=>{setDisplayLevelChoice(true)}}>
           Level&#8805; {level}<GoSync className="react-icons" size={20}/></div>
       </div>

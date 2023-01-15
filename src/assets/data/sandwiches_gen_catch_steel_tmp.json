@@ -1,0 +1,127 @@
+[
+  {
+    "note": "Apple-3_Cream Cheese,Sour Herba Mystica,Sour Herba Mystica", 
+    "fillings": ["Apple"], 
+    "condiments": [
+      "Cream Cheese",
+      "Sour Herba Mystica",
+      "Sour Herba Mystica"], 
+    "effects": [
+      {
+        "name": "Sparkling Power", 
+        "type": "Steel", 
+        "level": "3"
+      }, 
+      {
+        "name": "Title Power", 
+        "type": "Steel", 
+        "level": "3"
+      }, 
+      {
+        "name": "Catching Power",
+        "type": "Steel",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "note": "Apple-3_Cream Cheese,Sour Herba Mystica,Sweet Herba Mystica",
+    "fillings": ["Apple"],
+    "condiments": [
+      "Cream Cheese",
+      "Sour Herba Mystica",
+      "Sweet Herba Mystica"],
+    "effects": [
+      {"name": "Sparkling Power", "type": "Steel","level": "3"}, 
+      {"name": "Title Power", "type": "Steel", "level": "3"},
+      {"name": "Catching Power", "type": "Steel", "level": "3"}]
+  },{
+    "note": "Apple-3_Cream Cheese,Sweet Herba Mystica,Sweet Herba Mystica",
+    "fillings": ["Apple"],
+    "condiments": ["Cream Cheese","Sweet Herba Mystica","Sweet Herba Mystica"],
+    "effects": [{"name": "Sparkling Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Title Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Catching Power",
+    "type": "Steel",
+    "level": "3"}]}
+  ,{
+    "note": "Apple-3_Curry Powder,Sour Herba Mystica,Sweet Herba Mystica",
+    "fillings": ["Apple"],
+    "condiments": ["Curry Powder",
+    "Sour Herba Mystica",
+    "Sweet Herba Mystica"],
+    "effects": [{"name": "Sparkling Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Title Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Catching Power",
+    "type": "Steel",
+    "level": "3"}]}
+  ,{
+    "note": "Apple-3_Peanut Butter,Sour Herba Mystica,Sour Herba Mystica",
+    "fillings": ["Apple"],
+    "condiments": ["Peanut Butter",
+    "Sour Herba Mystica",
+    "Sour Herba Mystica"],
+    "effects": [{"name": "Sparkling Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Title Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Catching Power",
+    "type": "Steel",
+    "level": "3"}]}
+  ,{
+    "note": "Apple-3_Peanut Butter,Sour Herba Mystica,Sweet Herba Mystica",
+    "fillings": ["Apple"],
+    "condiments": ["Peanut Butter",
+    "Sour Herba Mystica",
+    "Sweet Herba Mystica"],
+    "effects": [{"name": "Sparkling Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Title Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Catching Power",
+    "type": "Steel",
+    "level": "3"}]}
+  ,{
+    "note": "Cheese-3_Peanut Butter,Sour Herba Mystica,Sweet Herba Mystica",
+    "fillings": ["Cheese"],
+    "condiments": ["Peanut Butter",
+    "Sour Herba Mystica",
+    "Sweet Herba Mystica"],
+    "effects": [{"name": "Sparkling Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Title Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Catching Power",
+    "type": "Steel",
+    "level": "3"}]}
+  ,{
+    "note": "Fried Fillet-1_Peanut Butter,Sour Herba Mystica,Sour Herba Mystica",
+    "fillings": ["Fried Fillet"],
+    "condiments": ["Peanut Butter",
+    "Sour Herba Mystica",
+    "Sour Herba Mystica"],
+    "effects": [{"name": "Sparkling Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Title Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Catching Power",
+    "type": "Steel",
+    "level": "3"}]}
+  ,{
+    "note": "Fried Fillet-1_Peanut Butter,Sour Herba Mystica,Sweet Herba Mystica",
+    "fillings": ["Fried Fillet"],
+    "condiments": ["Peanut Butter",
+    "Sour Herba Mystica",
+    "Sweet Herba Mystica"],
+    "effects": [{"name": "Sparkling Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Title Power",
+    "type": "Steel",
+    "level": "3"}, {"name": "Catching Power",
+    "type": "Steel",
+    "level": "3"}]}
+]

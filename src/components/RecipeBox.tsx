@@ -9,15 +9,18 @@ import '../styles/pokemon-type.css'
 const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
   return (
     <div className="recipe-box">
-      <span className="info">{recipe.name}</span>
+      <div className="recipe_name">{recipe.name}</div>
       <div className="recipe_info">
         {/* <div className={`buyable_location ${
           (recipe.location && recipe.fillings.length === 0 && recipe.condiments.length === 0)?"":"hide"}`}>Shop Location: {recipe.location}</div> */}
         
         {/* Ingredient */}
         <div className={`${(recipe.fillings.length > 0 && recipe.condiments.length > 0)?"":"hide"}`}>
-          <div className="row_container">
-            <div className="filter_title">Fillings: </div>
+          <div 
+            className="row_container"
+            style={{marginTop:"0px", marginBottom:"0px"}}
+          >
+            {/* <div className="filter_title"></div> */}
             <div className="ingre_container">
             {
               recipe.fillings.map(
@@ -27,9 +30,12 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
               )
             }
             </div>
-          </div>
-          <div className="row_container">
-            <div className="filter_title">Condiments: </div>
+          {/* </div> */}
+          {/* <div 
+            className="row_container"
+            style={{marginTop:"3px", marginBottom:"0px"}}
+            > */}
+            {/* <div className="filter_title"></div> */}
             <div className="ingre_container">
             {
               recipe.condiments.map(
@@ -41,8 +47,11 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
             </div>
           </div>
         </div>
-        <div className="row_container">
-          <div className="filter_title">Effects: </div>
+        <div 
+          className="row_container"
+          style={{marginTop:"3px", marginBottom:"0px"}}
+          >
+          {/* <div className="filter_title"></div> */}
           <div className="ingre_container">
           {
             recipe.effects.map(
