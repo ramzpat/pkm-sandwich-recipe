@@ -26,7 +26,9 @@ a {
 #recipe_list {
   width: 100%;
   margin-top: 0px;
-  height:450px;
+  min-height:200px;
+  height:50vh;
+  max-height:450px;
   flex-direction: column;
   overflow-y: auto;
 

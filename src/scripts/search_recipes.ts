@@ -180,5 +180,5 @@ export function search_recipes(
   )
 
   // Return the sorted result according to the number of fillings because it is better if we can use toppings as less as possible.
-  return all_sandwiches.sort((a, b) => (a.fillings.length - b.fillings.length) )
+  return all_sandwiches.sort((a, b) => (a.fillings.length - b.fillings.length) || (a.condiments.length - b.condiments.length) )
 }
