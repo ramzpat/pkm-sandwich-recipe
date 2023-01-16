@@ -50,14 +50,17 @@
 }
 
 .ingredient_box {
-  display: inline-block;
+  display:inline-block;
   /* margin: 2px 2px auto; */
   margin-left: 3px;
   margin-bottom: 2px;
-  min-width: 50px;
+  /* min-width: 50px; */
   padding: 5px 5px;
   border: 3px white;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
 }

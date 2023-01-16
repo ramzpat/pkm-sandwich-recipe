@@ -3,8 +3,42 @@ import { sandwich_recipe } from "../scripts/data_model";
 
 import { get_type_css } from "./TypeFilter";
 
+import filling_map from '../assets/data/fillings.json'
+import condi_map from '../assets/data/condiments.json'
+
 import '../styles/recipe-interface.css'
 import '../styles/pokemon-type.css'
+
+const get_filling_img = (filling_name:string) => {
+  const filling = filling_map.find((e) => (e.name === filling_name))
+  if (filling) {
+    return (
+      <img 
+        src={filling.imageUrl} 
+        alt={filling_name} 
+        width="18px" 
+        height="18px" />
+    );
+  } else {
+    return <div></div>;
+  }
+}
+
+const get_condi_img = (condi_name:string) => {
+  const condi = condi_map.find((e) => (e.name === condi_name))
+  if (condi) {
+    return (
+      <img 
+        src={condi.imageUrl} 
+        alt={condi_name} 
+        width="18px" 
+        height="18px" />
+    );
+  } else {
+    return <div></div>;
+  }
+}
+
 
 const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
   return (
@@ -25,7 +59,7 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
             {
               recipe.fillings.map(
                 (filling, index) => (
-                  <div className="ingredient_box" key={index}>{filling}</div>
+                  <div className="ingredient_box" key={index}>{get_filling_img(filling)}{filling}</div>
                 )
               )
             }
@@ -40,7 +74,7 @@ const RecipeBox:React.FC<{recipe:sandwich_recipe}> = ({recipe}) => {
             {
               recipe.condiments.map(
                 (condiment, index) => (
-                  <div className="ingredient_box" key={index}>{condiment}</div>
+                  <div className="ingredient_box" key={index}>{get_condi_img(condiment)}{condiment}</div>
                 )
               )
             }
