@@ -1,19 +1,16 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 import { recipe_filter, sandwich_recipe } from "../scripts/data_model"
-import { prepare_sandwiches_onLoad, search_recipes } from "../scripts/search_recipes"
+import { prepare_sandwiches_onLoad } from "../scripts/search_recipes"
 import RecipeBox from "./RecipeBox"
 
-const RecipeList:React.FC<{filter:recipe_filter}> = ({filter}) => {
+const RecipeList:React.FC<{
+  filter:recipe_filter, 
+  recipes:sandwich_recipe[],
+  setFilter:React.Dispatch<React.SetStateAction<recipe_filter>>}> = ({filter, recipes, setFilter}) => {
   useEffect(() => {
     // Prepare sandwiches onLoad
     prepare_sandwiches_onLoad();
   }, []);
-
-  const [recipes, setRecipes] = useState<sandwich_recipe[]>([]);
-
-  useEffect(()=> {
-    setRecipes(search_recipes(filter))
-  }, [filter])
 
   if (filter.effect_filters.length === 0) {
     return (

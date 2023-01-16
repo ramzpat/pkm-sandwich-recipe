@@ -13,6 +13,9 @@ import {GoSync} from "react-icons/go"
 
 import {BiXCircle} from "react-icons/bi"
 
+import { sandwich_recipe } from "../scripts/data_model"
+import { search_recipes } from "../scripts/search_recipes"
+
 import '../styles/filter-interface.css'
 import '../styles/pokemon-type.css'
 
@@ -20,8 +23,9 @@ const FilterContainer:React.FC<{
     filter:recipe_filter,
     setFilter:React.Dispatch<React.SetStateAction<recipe_filter>>,
     setAlertMsg:React.Dispatch<React.SetStateAction<string>>,
-    setAlert:React.Dispatch<React.SetStateAction<boolean>>
-  }> = ({filter, setFilter, setAlertMsg, setAlert}) => {
+    setAlert:React.Dispatch<React.SetStateAction<boolean>>,
+    setRecipes: React.Dispatch<React.SetStateAction<sandwich_recipe[]>>
+  }> = ({filter, setFilter, setAlertMsg, setAlert, setRecipes}) => {
 
   // Filter parameters 
   const [effects, setEffects] = useState<{id:number, effect:effect_filter}[]>([]);
@@ -78,10 +82,14 @@ const FilterContainer:React.FC<{
   useEffect(() => {
     setFilter({
       effect_filters:effects.map((e) => (e.effect)),
-      showBuyable:buyable,
+      showBuyable:false,
       showHerbal:useHerbal
     })
-  }, [setFilter, effects, buyable, useHerbal])
+    setRecipes(search_recipes({
+      effect_filters:effects.map((e) => (e.effect)),
+      showBuyable:false,
+      showHerbal:useHerbal}))
+  }, [setFilter, setRecipes, effects, useHerbal])
 
   return (
     <div id="filter_container">

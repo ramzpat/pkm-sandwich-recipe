@@ -8,6 +8,7 @@ import { recipe_filter } from './scripts/data_model';
 import FilterContainer from './components/FilterContainer';
 import RecipeList from './components/RecipeList';
 import {BiXCircle} from 'react-icons/bi'
+import { sandwich_recipe } from './scripts/data_model';
 
 function App() {
   // Alert messages 
@@ -41,20 +42,24 @@ function App() {
   // Filter 
   const [filter, setFilter] = useState<recipe_filter>({
     effect_filters:[],
-    showBuyable:true,
+    showBuyable:false,
     showHerbal:true
   });
+
+  const [recipes, setRecipes] = useState<sandwich_recipe[]>([]);
+
   
   return (
     <div className="App">
       <header className="App-header">
         <div id="app-interface">
-          <RecipeList filter={filter}/>
+          <RecipeList filter={filter} setFilter={setFilter} recipes={recipes}/>
           <FilterContainer
             filter={filter}
             setFilter={setFilter}
             setAlert={setAlert}
             setAlertMsg={setAlertMsg}
+            setRecipes={setRecipes}
             />
         </div>
         <Footer/>
