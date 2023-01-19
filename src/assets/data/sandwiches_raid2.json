@@ -1,0 +1,563 @@
+[
+  {
+    "note": "Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Potato Tortilla-1,Potato Tortilla-1_Pepper,Pepper,Pepper,Pepper",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Pepper"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Fighting", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Psychic", 
+        "level": "2"
+      }, 
+      {
+        "name": "Catching Power",
+        "type": "Ghost",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Potato Tortilla-1,Potato Tortilla-1_Pepper,Pepper,Pepper,Salt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Salt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Psychic", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Ghost", 
+        "level": "2"
+      }, 
+      {
+        "name": "Catching Power",
+        "type": "Fighting",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Potato Tortilla-1,Potato Tortilla-1_Butter,Pepper,Pepper,Salt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Butter",
+      "Salt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Ghost", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Fighting", 
+        "level": "2"
+      }, 
+      {
+        "name": "Catching Power",
+        "type": "Psychic",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Fried Fillet-1,Fried Fillet-1,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3_Pepper,Pepper,Pepper,Pepper",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Pepper"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Ground", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Dark", 
+        "level": "2"
+      }, 
+      {
+        "name": "Catching Power",
+        "type": "Water",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Fried Fillet-1,Fried Fillet-1,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3_Pepper,Pepper,Pepper,Yogurt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Yogurt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Dark", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Water", 
+        "level": "2"
+      }, 
+      {
+        "name": "Catching Power",
+        "type": "Ground",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Fried Fillet-1,Fried Fillet-1,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3,Herbed Sausage-3_Chili Sauce,Pepper,Pepper,Yogurt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Herbed Sausage",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Chili Sauce",
+      "Yogurt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Water", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Ground", 
+        "level": "2"
+      }, 
+      {
+        "name": "Catching Power",
+        "type": "Dark",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Chorizo-3,Chorizo-3,Chorizo-3,Chorizo-3,Potato Tortilla-1,Potato Tortilla-1_Mustard,Mustard,Mustard,Mustard",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Mustard",
+      "Mustard",
+      "Mustard",
+      "Mustard"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Poison", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Dragon", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Fire",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Chorizo-3,Chorizo-3,Chorizo-3,Chorizo-3,Potato Tortilla-1,Potato Tortilla-1_Mustard,Mustard,Mustard,Pepper",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Mustard",
+      "Mustard",
+      "Mustard",
+      "Pepper"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Dragon", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Fire", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Poison",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Chorizo-3,Chorizo-3,Chorizo-3,Chorizo-3,Potato Tortilla-1,Potato Tortilla-1_Mustard,Mustard,Peanut Butter,Pepper",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Mustard",
+      "Mustard",
+      "Peanut Butter",
+      "Pepper"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Fire", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Poison", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Dragon",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Chorizo-3,Chorizo-3,Chorizo-3,Chorizo-3,Fried Fillet-1,Fried Fillet-1_Pepper,Pepper,Pepper,Pepper",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Pepper"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Normal", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Electric", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Bug",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Chorizo-3,Chorizo-3,Chorizo-3,Chorizo-3,Fried Fillet-1,Fried Fillet-1_Pepper,Pepper,Pepper,Salt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Chorizo",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Salt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Electric", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Bug", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Normal",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Potato Tortilla-1,Potato Tortilla-1,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3_Pepper,Pepper,Pepper,Pepper",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Egg",
+      "Egg",
+      "Egg",
+      "Egg",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Pepper"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Rock", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Fairy", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Grass",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Potato Tortilla-1,Potato Tortilla-1,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3_Pepper,Pepper,Pepper,Yogurt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Egg",
+      "Egg",
+      "Egg",
+      "Egg",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Yogurt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Fairy", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Grass", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Rock",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Potato Tortilla-1,Potato Tortilla-1,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3_Chili Sauce,Pepper,Pepper,Yogurt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Egg",
+      "Egg",
+      "Egg",
+      "Egg",
+      "Potato Tortilla",
+      "Potato Tortilla"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Chili Sauce",
+      "Yogurt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Grass", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Rock", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Fairy",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Fried Fillet-1,Fried Fillet-1,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3_Pepper,Pepper,Pepper,Pepper",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Egg",
+      "Egg",
+      "Egg",
+      "Egg",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Pepper",
+      "Pepper",
+      "Pepper",
+      "Pepper"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Ice", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Steel", 
+        "level": "2"
+      }, 
+      {
+        "name": "Humungo Power",
+        "type": "Flying",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Fried Fillet-1,Fried Fillet-1,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3_Peanut Butter,Peanut Butter,Pepper,Yogurt",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Egg",
+      "Egg",
+      "Egg",
+      "Egg",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Peanut Butter",
+      "Peanut Butter",
+      "Pepper",
+      "Yogurt"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Steel", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Flying", 
+        "level": "2"
+      }, 
+      {
+        "name": "Egg Power",
+        "type": "",
+        "level": "1"
+      }
+    ]
+  },
+  {
+    "note": "Fried Fillet-1,Fried Fillet-1,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3,Sliced Egg-3_Peanut Butter,Peanut Butter,Peanut Butter,Peanut Butter",
+    "ref": "https://www.reddit.com/r/pokemon/comments/zciyad/all_raid_power_type_boost_level_2_sandwiches/",
+    "fillings": [
+      "Egg",
+      "Egg",
+      "Egg",
+      "Egg",
+      "Fried Fillet",
+      "Fried Fillet"], 
+    "condiments": [
+      "Peanut Butter",
+      "Peanut Butter",
+      "Peanut Butter",
+      "Peanut Butter"], 
+    "effects": [
+      {
+        "name": "Exp. Point Power", 
+        "type": "Steel", 
+        "level": "2"
+      }, 
+      {
+        "name": "Raid Power", 
+        "type": "Ice", 
+        "level": "2"
+      }, 
+      {
+        "name": "Egg Power",
+        "type": "",
+        "level": "1"
+      }
+    ]
+  }
+]

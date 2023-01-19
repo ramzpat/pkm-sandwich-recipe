@@ -8,6 +8,7 @@ import gen_teensy from "../assets/data/sandwiches_gen_teensy.json"
 import gen_humungo from "../assets/data/sandwiches_gen_humungo.json"
 import gen_catching_1 from "../assets/data/sandwiches_gen_catching_1.json"
 import gen_catch_steel from "../assets/data/sandwiches_gen_catch_steel_tmp.json"
+import gen_raid_2 from "../assets/data/sandwiches_raid2.json"
 
 let _standard_sandwiches:sandwich_recipe[] = []
 let _shop_sandwiches:sandwich_recipe[] = []
@@ -111,6 +112,18 @@ export function prepare_sandwiches_onLoad() {
         {
           name: "(Auto-gen) Creative mode",
           description: "This is not checked yet.",
+          fillings:e.fillings,
+          condiments:e.condiments,
+          effects: e.effects
+        })
+    }
+  )
+  gen_raid_2.forEach(
+    (e) => {
+      _creative_sandwiches.push(
+        {
+          name: "Creative mode",
+          description: "",
           fillings:e.fillings,
           condiments:e.condiments,
           effects: e.effects
