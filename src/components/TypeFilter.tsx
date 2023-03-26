@@ -102,10 +102,7 @@ export const get_type_css = (type_name:string):string => {
   let filtered_types = pokemon_types.filter(
     (pkm_type) => (pkm_type.type_name === type_name)
   );
-  if (filtered_types.length > 1) {
-    console.log('There is an error.');
-    return "";
-  } else if (filtered_types.length === 1) {
+  if (filtered_types.length === 1) {
     return filtered_types[0].type_css;
   } else {
     return "";

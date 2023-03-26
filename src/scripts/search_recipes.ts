@@ -16,36 +16,33 @@ let _creative_sandwiches:sandwich_recipe[] = []
 
 export function prepare_sandwiches_onLoad() {
   // Prepare standard sandwiches 
-  standard_sandwiches.forEach(
-    (e) => {
-      _standard_sandwiches.push(
-        {
-          name: "#" + e.number + ": " + e.name,
-          description:e.description,
-          fillings:e.fillings,
-          condiments:e.condiments,
-          imgSrc:e.imageUrl,
-          location:e.location,
-          effects: e.effects
-        }
-      )
-    }
-  )
-  shop_sandwiches.forEach(
-    (e) => {
-      _shop_sandwiches.push(
-        {
-          name: "Buyable",
-          description:"-",
-          fillings:[],
-          condiments:[],
-          // imgSrc:e.imageUrl,
-          location:e.location,
-          effects: e.effects
-        }
-      )
-    }
-  )
+  // These are sandwiches that are available in the game
+  standard_sandwiches.forEach(sandwich => {
+    _standard_sandwiches.push({
+      name: "#" + sandwich.number + ": " + sandwich.name,
+      description: sandwich.description,
+      fillings: sandwich.fillings,
+      condiments: sandwich.condiments,
+      imgSrc: sandwich.imageUrl,
+      location: sandwich.location,
+      effects: sandwich.effects
+    });
+  });
+  
+  // Prepare shop sandwiches
+  // These are sandwiches that are available in the shop
+  shop_sandwiches.forEach((sandwich) => {
+    _shop_sandwiches.push({
+        name: "Buyable",
+        description:"-",
+        fillings:[],
+        condiments:[],
+        location:sandwich.location,
+        effects: sandwich.effects
+    })
+  });
+  
+  // Prepare creative sandwiches
   creative_sandwiches.forEach(
     (e) => {
       _creative_sandwiches.push(
@@ -57,7 +54,8 @@ export function prepare_sandwiches_onLoad() {
           effects: e.effects
         })
     }
-  )
+  );
+  
   cre_sim_sandwiches.forEach(
     (e) => {
       _creative_sandwiches.push(
@@ -134,18 +132,25 @@ export function prepare_sandwiches_onLoad() {
 }
 
 const sandwich_match_condition = (recipe:sandwich_recipe, _filter:effect_filter):boolean => {
+  // Declare a boolean variable
   let is_match:boolean = false;
+  // Loop through each effect in the recipe
   recipe.effects.forEach(
     (effect) => {
+      // Check if the filter matches the effect
       if (effect.name === _filter.power 
         && (+effect.level) >= _filter.level) {
+        // Check if the power is egg power
         if (effect.name === "Egg Power")
+          // Set the variable to true
           is_match = true;
         else
+          // Set the variable to true if the effect type matches the filter type
           is_match = (effect.type === _filter.type)
       }
     }
   )
+  // Return the variable
   return is_match;
 }
 
@@ -167,23 +172,17 @@ export function search_recipes(
   if (!creativeMode || creativeMode) {
     all_sandwiches = all_sandwiches.concat(_creative_sandwiches.slice(0)).slice(0)
   }
+
+  // Remove sandwich that uses herbal mystica
   if (!_filter.showHerbal) {
-    // Remove sandwich that uses herbal mystica
-    all_sandwiches = all_sandwiches.filter(
-      (sandwich) => {
-        let useHerbal = false;
-        sandwich.condiments.forEach(
-          (condi) => {
-            if (condi.indexOf("Herba") >= 0)
-              useHerbal = true; 
-          }
-        )
-        return !useHerbal;
-      }
-    )
+    all_sandwiches = all_sandwiches.filter((sandwich) => {
+        return !sandwich.condiments.find((condi) => {
+            return condi.indexOf("Herba") >= 0;
+          })
+      })
   }
   
-  // Filter sandwich based on the selected effects 
+  // Filter sandwich based on the selected effects
   _filter.effect_filters.forEach(
     (filter) => {
       all_sandwiches = all_sandwiches.filter(
@@ -192,5 +191,8 @@ export function search_recipes(
     }
   )
   // Return the sorted result according to the number of fillings because it is better if we can use toppings as less as possible.
-  return all_sandwiches.sort((a, b) => (a.fillings.length - b.fillings.length) || (a.condiments.length - b.condiments.length) )
+  return all_sandwiches.sort((a, b) => 
+    (a.fillings.length - b.fillings.length) || 
+    (a.condiments.length - b.condiments.length) 
+  );
 }

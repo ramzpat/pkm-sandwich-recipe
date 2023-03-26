@@ -24,7 +24,7 @@ function App() {
     )
   }
 
-  // Footer 
+  // Footer component
   const Footer:React.FC = () => {
     return (
       <div id='footer'>
@@ -67,6 +67,7 @@ function App() {
       </header>
     </div>
   );
+  
 }
 
 export default App;

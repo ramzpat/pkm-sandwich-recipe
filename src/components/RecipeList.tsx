@@ -10,6 +10,7 @@ const RecipeList:React.FC<{
   useEffect(() => {
     // Prepare sandwiches onLoad
     prepare_sandwiches_onLoad();
+    console.log("Sandwiches have been prepared")
   }, []);
 
   if (filter.effect_filters.length === 0) {
